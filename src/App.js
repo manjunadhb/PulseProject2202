@@ -3,7 +3,6 @@ import './App.css';
 import Login from './components/Login';
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import PageNotFound from './components/PageNotFound';
-import Login from './components/Login';
 import Home from './components/Home';
 import DSU from './components/DSU';
 import Tasks from './components/Tasks';
