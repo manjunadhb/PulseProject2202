@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+.inputLogin{
+  width: 15%;
+  border-radius: 9px;
+  margin: 3px;
+  font-size: larger;
+  font-weight: bolder;
+  padding: 3px;
+  }
+  .labelLogin{
+    width:100px ;
+    font-size: larger;
+    background-color: white;
+    border-radius: 9px;
+    margin: 3px;
+  }
