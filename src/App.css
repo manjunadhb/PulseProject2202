@@ -21,6 +21,7 @@ input[type="text"],input[type="date"],
 input[type="password"],input[type="number"],textarea {
   width: 80%;
   padding: 15px;
+  font-size: large;
   margin: 10px 0 22px 0;
   display: inline-block;
   border: none;
