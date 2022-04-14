@@ -21,7 +21,7 @@ function AdminDashboard() {
       </div>
       <div className="navContainer">
         <nav>
-          <button className="buttonClass">
+          <button className="buttonclassName">
             {" "}
             <NavLink
               to="/adminDashboard"
@@ -30,19 +30,19 @@ function AdminDashboard() {
               Dashboard
             </NavLink>
           </button>
-          <button className="buttonClass">
+          <button className="buttonclassName">
             {" "}
             <NavLink to="/adminReports" style={(obj) => highlightNavLink(obj)}>
               Reports{" "}
             </NavLink>
           </button>
-          <button className="buttonClass">
+          <button className="buttonclassName">
             {" "}
             <NavLink to="/adminManage" style={(obj) => highlightNavLink(obj)}>
               Manages{" "}
             </NavLink>
           </button>
-          <button className="buttonClass">
+          <button className="buttonclassName">
             {" "}
             <NavLink to="/adminSettings" style={(obj) => highlightNavLink(obj)}>
               Settings
