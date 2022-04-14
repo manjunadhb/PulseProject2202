@@ -1,7 +1,44 @@
 .App {
   text-align: center;
+  background-color: #333333;
+  height: 950px;
 }
-
+.App1 {
+  text-align: center;
+  background-color: white;
+  height: 950px;
+}
+.login {
+  width: 600px;
+  overflow: hidden;
+  margin: auto;
+  margin: 20 0 0 450px;
+  padding: 80px;
+  background: #eceef1;
+  border-radius: 15px;
+}
+input[type="text"],input[type="date"],
+input[type="password"],input[type="number"],textarea {
+  width: 80%;
+  padding: 15px;
+  margin: 10px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: rgb(220, 238, 232);
+}
+.registerbtn {
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.registerbtn:hover {
+  opacity: 3;
+}
 .inputLogin {
   width: 15%;
   border-radius: 9px;

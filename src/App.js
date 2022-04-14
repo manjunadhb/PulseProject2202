@@ -9,7 +9,6 @@ import Tasks from "./components/Tasks";
 import Messages from "./components/Messages";
 import Requests from "./components/Requests";
 import Leaves from "./components/Leaves";
-import AdminHome from "./components/AdminHome";
 import AdminDashboard from "./components/AdminDashboard";
 import AdminReports from "./components/AdminReports";
 import AdminManage from "./components/AdminManage";
@@ -28,7 +27,6 @@ function App() {
 
 
 
-          <Route path="adminHome" element={<Home />}></Route>
           <Route path="adminDashboard" element={<AdminDashboard />}></Route>
           <Route path="adminReports" element={<AdminReports />}></Route>
           <Route path="adminManage" element={<AdminManage />}></Route>

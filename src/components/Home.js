@@ -15,6 +15,7 @@ function Home() {
     }
   };
   return (
+    <div className="App1">
     <div className="bannerContainer">
       <div>
         <img src="https://pulse.brninfotech.com/pulse/assets/admin/layout/img/logo.png"></img>
@@ -60,7 +61,7 @@ function Home() {
           width="40px"
           height="55px"
         ></img>
-        <h6>Sangram Keshari Rath</h6>
+        <h6>Ranbir Kapoor</h6>
       </div>
       <Suspense fallback={<div>Loading.........</div>}>
         <Routes>
@@ -71,6 +72,7 @@ function Home() {
           <Route path="/more" element={<More />}></Route>
         </Routes>
       </Suspense>
+    </div>
     </div>
   );
 }

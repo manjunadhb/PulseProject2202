@@ -14,6 +14,7 @@ function AdminDashboard() {
     }
   };
   return (
+    <div className="App1">
     <div className="bannerContainer">
       <div>
         <img src="https://pulse.brninfotech.com/pulse/assets/admin/layout/img/logo.png"></img>
@@ -56,7 +57,7 @@ function AdminDashboard() {
           width="40px"
           height="55px"
         ></img>
-        <h6>Sangram Keshari Rath</h6>
+        <h6>Ranbir Kapoor</h6>
       </div>
       <Suspense fallback={<div>Loading.........</div>}>
         <Routes>
@@ -67,6 +68,7 @@ function AdminDashboard() {
           <Route path="/adminSettings" element={<AdminSettings />}></Route>
         </Routes>
       </Suspense>
+    </div>
     </div>
   );
 }
