@@ -12,12 +12,12 @@ function Login() {
     <div>
  <img
         src="https://pulse.brninfotech.com/pulse/assets/admin/layout/img/logo-big.png"
-        alt
+        alt = "Student Photo"
         width="20%"
         height="20%"
       ></img>
       <br />
-      <div class="login">
+      <div className="login">
         <label>
           <b>User Name</b>
         </label><br/>
@@ -53,7 +53,7 @@ function Login() {
         <br />
         <button
           type="submit"
-          class="registerbtn"
+          className="registerbtn"
           onClick={() => {
             if (
               userNameRef.current.value === "student" &&
