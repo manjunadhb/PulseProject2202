@@ -102,3 +102,74 @@ h6 {
   margin: 15px;
   font-size: 15px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.brnlogo{
+  height: 200px;
+}
+
+.card{
+  background-color: aliceblue;
+}
+ 
+.submit{
+  height: 40px;
+  width: 70px;
+  background-color: #04aa6d;
+  color: white;
+  cursor: pointer;
+  border: none;
+  opacity:0.9;
+
+}
+.submit:hover {
+  opacity:3;
+}
+.cancel{
+  height: 40px;
+  width: 70px;
+  background-color:ghostwhite;
+  color:gray;
+  cursor: pointer;
+  border: none;
+  opacity:0.9;
+}
+.cancel:hover{
+opacity: 3;
+}
+.card{
+  width: 280px;
+  height: 100;
+  overflow: hidden;
+  margin: auto;
+  margin: 20 0 0 450px;
+  padding: 40px;
+  background: #eceef1;
+  border-radius: 15px;
+}
+
+.text{
+  color:#04aa6d;
+  font-family: font;
+}
+@font-face{
+  font-family: font;
+  src: url('./font.ttf');
+}
+body{
+  background-color:rgb(88, 111, 143);
+}

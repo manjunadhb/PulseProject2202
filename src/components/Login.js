@@ -2,6 +2,7 @@ import React, { useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import logo from "../media/logo.png";
+import {NavLink} from 'react-router-dom';
 
 function Login() {
   let userNameRef = useRef();
@@ -88,7 +89,11 @@ function Login() {
         </button>
         <br />
         <br />
-        Forgot <a href="#">Password</a>
+        <div>
+        <nav>
+            <NavLink className="AppLink" to='/Forgotpassword'>Forgot Password</NavLink>
+            </nav>
+        </div>
       </div>
       
     </div>
