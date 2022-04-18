@@ -44,10 +44,18 @@ function AdminDashboard() {
           </button>
           <button className="buttonClass">
             {" "}
+            <NavLink to="/batchSummary" style={(obj) => highlightNavLink(obj)}>
+              Batch Summary
+            </NavLink>
+          </button>
+          <button className="buttonClass">
+            {" "}
             <NavLink to="/adminSettings" style={(obj) => highlightNavLink(obj)}>
               Settings
             </NavLink>
           </button>
+
+
         </nav>
       </div>
       <div className="imageContainer">
