@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import { useNavigate } from "react-router-dom";
+import { Navigate, useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import logo from "../media/logo.png";
 
@@ -88,7 +88,12 @@ function Login() {
         </button>
         <br />
         <br />
-        Forgot <a href="#">Password</a>
+        Forgot <a href="#">Password</a><br></br>
+        <button
+          type="submit"
+          className="registerCreateBtn"
+          onClick={() => {
+            navigate("/signup")}}>Create A New Account</button>
       </div>
       
     </div>
