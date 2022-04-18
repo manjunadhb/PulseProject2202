@@ -16,6 +16,7 @@ import AdminSettings from "./components/AdminSettings";
 import Home from "./components/Home";
 import SignUp from "./components/SignUp";
 import Forgotpassword from "./components/Forgotpassword";
+import BatchSummary from "./components/BatchSummary";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Login />}></Route>
           <Route path="Forgotpassword" element={<Forgotpassword />}></Route>
+          <Route path="batchsummary" element={<BatchSummary/>}/>
           //..............................For
           Admin......................................................//
 

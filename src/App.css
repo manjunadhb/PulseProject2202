@@ -206,3 +206,46 @@ opacity: 3;
 .ankerCss{
   color: #7a8ca5;
 }
+
+.styleBatchSummary{
+  background-color: beige;
+}
+
+.tableBatchSummary{
+  display: flex;
+  flex-flow: column wrap;
+
+
+  border: 2px solid rgba(236, 14, 14, 0.742);
+  border-collapse: collapse;
+  box-shadow: 3px 2px rgb(235, 241, 241);
+  text-align: center;
+  margin: 7px;
+  font-size: x-large;
+  align-content: center;
+
+}
+
+
+thead{
+  background-color: rgb(219, 141, 141);
+  width: 100%;
+
+}
+
+th{
+  width: 2%;
+
+}
+tr,td,th{
+  border: 2px solid white;
+}
+
+tr:nth-child(even) {
+  background-color: #836464b9;
+}
+
+tr:nth-child(odd){
+background-color:rgb(250, 250, 178);
+}
+
