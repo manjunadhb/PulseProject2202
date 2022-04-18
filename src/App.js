@@ -53,7 +53,13 @@ function App() {
           <Route path="leaves" element={<Leaves />}></Route>
           <Route path="*" element={<PageNotFound />}></Route>
           <Route path="signup" element={<SignUp />}></Route>
-          </Routes>
+          {/* </Routes>
+
+          <Route path="signup" element={<SignUp />}></Route> */}
+          
+
+        </Routes>
+
       </BrowserRouter>
 
       

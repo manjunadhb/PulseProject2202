@@ -199,7 +199,10 @@ opacity: 3;
   font-family: font;
   src: url('./font.ttf');
 }
-body{
+.mainContainerForgetpswrd{
   background-color:rgb(88, 111, 143);
+  padding-bottom: 350px;
 }
-
+.ankerCss{
+  color: #7a8ca5;
+}
