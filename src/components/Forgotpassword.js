@@ -46,7 +46,7 @@ function Forgotpassword() {
       <br></br><br></br>
 
      <div className='tag'>
-     <a href="https://www.brninfotech.com/">2022 © BRN Infotech Pvt. Ltd. </a>
+     <a href="https://www.brninfotech.com/" style={{color: "white"}}>2022 © BRN Infotech Pvt. Ltd. </a>
      </div>
      </center>
      <br></br>
