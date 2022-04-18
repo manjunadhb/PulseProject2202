@@ -88,12 +88,21 @@ function Login() {
           Login
         </button>
         <br />
-        <br />
+        <br/>
         <div>
+          
         <nav>
             <NavLink className="AppLink" to='/Forgotpassword'>Forgot Password</NavLink>
             </nav>
         </div>
+        <br />
+        <button
+          type="submit"
+          className="registerCreateBtn"
+          onClick={() => {
+            navigate("/signup")}}>Create A New Account</button>
+        
+
       </div>
       
     </div>

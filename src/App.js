@@ -14,7 +14,9 @@ import AdminReports from "./components/AdminReports";
 import AdminManage from "./components/AdminManage";
 import AdminSettings from "./components/AdminSettings";
 import Home from "./components/Home";
+import SignUp from "./components/SignUp";
 import Forgotpassword from "./components/Forgotpassword";
+
 
 function App() {
   return (
@@ -51,7 +53,10 @@ function App() {
           <Route path="requests" element={<Requests />}></Route>
           <Route path="leaves" element={<Leaves />}></Route>
           <Route path="*" element={<PageNotFound />}></Route>
+
+          <Route path="signup" element={<SignUp />}></Route>
           
+
         </Routes>
       </BrowserRouter>
 
