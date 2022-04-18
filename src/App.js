@@ -29,7 +29,7 @@ function App() {
 
 
 
-          <Route path="adminDashboard" element={<AdminDashboard />}></Route>
+          <Route path="adminDashboard/*" element={<AdminDashboard />}></Route>
           <Route path="adminReports" element={<AdminReports />}></Route>
           <Route path="adminManage" element={<AdminManage />}></Route>
           <Route path="adminSettings" element={<AdminSettings />}></Route>
@@ -43,7 +43,7 @@ function App() {
 
 
 
-          <Route path="home" element={<Home />}></Route>
+          <Route path="home/*" element={<Home />}></Route>
           <Route path="dsu" element={<DSU />}></Route>
           <Route path="tasks" element={<Tasks />}></Route>
           <Route path="messages" element={<Messages />}></Route>
