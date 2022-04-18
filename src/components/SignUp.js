@@ -98,7 +98,9 @@ function SignUp() {
               onClick={() =>
                {
                     navigate("/")}}>BACK</button>
-              <button type="submit"className="buttonSubmit" onClick={() => {
+              <button type="submit"className="buttonSubmit" onClick={() => 
+              {         
+                        alert("Your Details Are Submitted Successfully");
                         navigate("/")}}>SUBMIT</button>
             </div>
     </div>
