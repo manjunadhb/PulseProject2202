@@ -14,7 +14,7 @@ function Forgotpassword() {
        }
        else{
        alert("sucessfully submitted")
-       navigate('/Login')
+       navigate('/');
        }
        
     }
