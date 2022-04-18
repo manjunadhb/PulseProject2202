@@ -103,3 +103,103 @@ h6 {
   margin: 15px;
   font-size: 15px;
 }
+.registerCreateBtn {
+  background-color: #8d9292;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  
+}
+/********* CSS for Signup page *************/
+.containerSignup
+{
+  border: 2px solid gray;
+  border-radius: 12px;
+  background-color: rgb(252, 249, 239);
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+}
+.maindiv
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(73, 71, 71);
+}
+.brnLogo
+{
+  height: 200px;
+  width: 200px;
+}
+.buttonSubmit{
+  float : right;
+  background-color: green;
+  padding-top: 3px;
+  width: 40%;
+}
+.buttonBack
+{
+  padding: 3px;
+  width: 40%;
+}
+.brnlogo{
+  height: 200px;
+}
+
+.card{
+  background-color: aliceblue;
+}
+ 
+.submit{
+  height: 40px;
+  width: 70px;
+  background-color: #04aa6d;
+  color: white;
+  cursor: pointer;
+  border: none;
+  opacity:0.9;
+
+}
+.submit:hover {
+  opacity:3;
+}
+.cancel{
+  height: 40px;
+  width: 70px;
+  background-color:ghostwhite;
+  color:gray;
+  cursor: pointer;
+  border: none;
+  opacity:0.9;
+}
+.cancel:hover{
+opacity: 3;
+}
+.card{
+  width: 280px;
+  height: 100;
+  overflow: hidden;
+  margin: auto;
+  margin: 20 0 0 450px;
+  padding: 40px;
+  background: #eceef1;
+  border-radius: 15px;
+}
+
+.text{
+  color:#04aa6d;
+  font-family: font;
+}
+@font-face{
+  font-family: font;
+  src: url('./font.ttf');
+}
+body{
+  background-color:rgb(88, 111, 143);
+}
+
