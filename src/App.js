@@ -14,7 +14,11 @@ import AdminReports from "./components/AdminReports";
 import AdminManage from "./components/AdminManage";
 import AdminSettings from "./components/AdminSettings";
 import Home from "./components/Home";
+<<<<<<< HEAD
 import SignUp from "./components/SignUp";
+=======
+import Forgotpassword from "./components/Forgotpassword";
+>>>>>>> 2756ed61827ca61fe46a8eafb67f7599fabdefcd
 
 function App() {
   return (
@@ -23,6 +27,7 @@ function App() {
       
         <Routes>
           <Route path="/" element={<Login />}></Route>
+          <Route path="Forgotpassword" element={<Forgotpassword />}></Route>
           //..............................For
           Admin......................................................//
 
@@ -50,9 +55,16 @@ function App() {
           <Route path="requests" element={<Requests />}></Route>
           <Route path="leaves" element={<Leaves />}></Route>
           <Route path="*" element={<PageNotFound />}></Route>
+<<<<<<< HEAD
           <Route path="signup" element={<SignUp />}></Route>
+=======
+          
+>>>>>>> 2756ed61827ca61fe46a8eafb67f7599fabdefcd
         </Routes>
       </BrowserRouter>
+
+      
+      
     </div>
   );
 }
