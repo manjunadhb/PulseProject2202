@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import { useNavigate } from "react-router-dom";
+import { Navigate, useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import logo from "../media/logo.png";
 import {NavLink} from 'react-router-dom';
@@ -88,12 +88,21 @@ function Login() {
           Login
         </button>
         <br />
-        <br />
+        <br/>
         <div>
+          
         <nav>
             <NavLink className="AppLink" to='/Forgotpassword'>Forgot Password</NavLink>
             </nav>
         </div>
+        <br />
+        <button
+          type="submit"
+          className="registerCreateBtn"
+          onClick={() => {
+            navigate("/signup")}}>Create A New Account</button>
+        
+
       </div>
       
     </div>

@@ -103,22 +103,50 @@ h6 {
   margin: 15px;
   font-size: 15px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.registerCreateBtn {
+  background-color: #8d9292;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  
+}
+/********* CSS for Signup page *************/
+.containerSignup
+{
+  border: 2px solid gray;
+  border-radius: 12px;
+  background-color: rgb(252, 249, 239);
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+}
+.maindiv
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(73, 71, 71);
+}
+.brnLogo
+{
+  height: 200px;
+  width: 200px;
+}
+.buttonSubmit{
+  float : right;
+  background-color: green;
+  padding-top: 3px;
+  width: 40%;
+}
+.buttonBack
+{
+  padding: 3px;
+  width: 40%;
+}
 .brnlogo{
   height: 200px;
 }
@@ -171,8 +199,12 @@ opacity: 3;
   font-family: font;
   src: url('./font.ttf');
 }
-body{
+.mainContainerForgetpswrd{
   background-color:rgb(88, 111, 143);
+  padding-bottom: 350px;
+}
+.ankerCss{
+  color: #7a8ca5;
 }
 
 .styleBatchSummary{
