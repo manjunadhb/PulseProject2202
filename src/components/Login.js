@@ -106,9 +106,9 @@ function Login() {
             navigate("/signup")}}>Create A New Account</button>
 
              <div>
-         <nav>
+         {/* <nav>
             <NavLink className="AppLink" to='/Forgotpassword'>Forgot Password</NavLink>
-            </nav> 
+            </nav>  */}
         </div>
       </div>
       
