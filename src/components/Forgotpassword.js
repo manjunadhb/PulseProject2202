@@ -13,8 +13,8 @@ function Forgotpassword() {
          alert("Please enter mail or phone number")
        }
        else{
-       alert("sucessfully submitted");
-       navigate('/')
+       alert("sucessfully submitted")
+       navigate('/');
        }
        
     }
