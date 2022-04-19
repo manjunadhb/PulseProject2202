@@ -23,31 +23,26 @@ function Home() {
         <div className="navContainer">
           <nav>
             <button className="buttonClassOne">
-              {" "}
               <NavLink to="/home" style={(obj) => highlightNavLink(obj)}>
                 Home
               </NavLink>
             </button>
             <button className="buttonClassOne">
-              {" "}
               <NavLink to="/dsu" style={(obj) => highlightNavLink(obj)}>
                 Daily Status Update
               </NavLink>
             </button>
             <button className="buttonClassOne">
-              {" "}
               <NavLink to="/tasks" style={(obj) => highlightNavLink(obj)}>
                 Tasks
               </NavLink>
             </button>
             <button className="buttonClassOne">
-              {" "}
               <NavLink to="/messages" style={(obj) => highlightNavLink(obj)}>
                 Messages
               </NavLink>
             </button>
             <button className="buttonClassOne">
-              {" "}
               <NavLink to="/more" style={(obj) => highlightNavLink(obj)}>
                 More
               </NavLink>
