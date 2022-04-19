@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import AdminTopNavigation from "./AdminTopNavigation";
 
 function AdminManage() {
   return (
-    <div>AdminManage</div>
-  )
+    <div>
+      <AdminTopNavigation />
+      <h1>Admin Manage</h1>
+    </div>
+  );
 }
 
-export default AdminManage
+export default AdminManage;
