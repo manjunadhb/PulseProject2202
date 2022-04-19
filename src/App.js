@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Login from "./components/Login";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
 import PageNotFound from "./components/PageNotFound";
 
 import DSU from "./components/DSU";
@@ -14,15 +14,19 @@ import AdminReports from "./components/AdminReports";
 import AdminManage from "./components/AdminManage";
 import AdminSettings from "./components/AdminSettings";
 import Home from "./components/Home";
+import SignUp from "./components/SignUp";
 import Forgotpassword from "./components/Forgotpassword";
+import BatchSummary from "./components/BatchSummary";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+      
         <Routes>
           <Route path="/" element={<Login />}></Route>
           <Route path="Forgotpassword" element={<Forgotpassword />}></Route>
+          <Route path="batchsummary" element={<BatchSummary/>}/>
           //..............................For
           Admin......................................................//
 
@@ -50,8 +54,14 @@ function App() {
           <Route path="requests" element={<Requests />}></Route>
           <Route path="leaves" element={<Leaves />}></Route>
           <Route path="*" element={<PageNotFound />}></Route>
+          <Route path="signup" element={<SignUp />}></Route>
+          {/* </Routes>
+
+          <Route path="signup" element={<SignUp />}></Route> */}
           
+
         </Routes>
+
       </BrowserRouter>
 
       
