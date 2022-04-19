@@ -267,6 +267,17 @@ tr:nth-child(odd) {
   background-color: rgb(250, 250, 178);
 }
 
+.formreport {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.reportlabel {
+  color: white;
+  font-size: 20px;
+}
+
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors

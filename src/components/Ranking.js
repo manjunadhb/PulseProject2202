@@ -4,9 +4,9 @@ import { Button , Form , Accordion} from 'react-bootstrap'
 function Ranking() {
   return (
     <div>
-      <div className = "form">
+      <div className = "formreport">
        <label className ="reportlabel" >Report For</label>           
-       <Form.Select aria-label="Default select example">
+       <Form.Select defaultValue="select..." style={{width: "500px"}}>
              <option>2201</option>
              <option>2112</option>
              <option>2111</option>
@@ -23,13 +23,13 @@ function Ranking() {
              </optgroup>
              </Form.Select>
 
-
+        <Button variant="primary">Get Report</Button>
 
       </div>
 <br></br><br></br>
       <Accordion defaultActiveKey="0">
   <Accordion.Item eventKey="0">
-    <Accordion.Header> <h4 className = "rankinghead">2202 - Started from: 14-Feb-22</h4></Accordion.Header>
+    <Accordion.Header> <h4>2202 - Started from: 14-Feb-22</h4></Accordion.Header>
     <Accordion.Body>
       
     </Accordion.Body>

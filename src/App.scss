@@ -249,11 +249,18 @@
   background-color:rgb(250, 250, 178);
   }
   
+.formreport
+{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 
-  .rankinghead
-  {
-    background-color: gray;
-  } 
+.reportlabel
+{
+  color:white;
+  font-size: 20px;
+}
 
 
   @import "../node_modules/bootstrap/scss/bootstrap.scss"
