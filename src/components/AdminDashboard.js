@@ -5,6 +5,7 @@ import { BrowserRouter, Link, Route, Routes, NavLink } from "react-router-dom";
 import React, { Suspense } from "react";
 import AdminTopNavigation from "./AdminTopNavigation";
 import {Tabs,Tab } from "react-bootstrap"
+import Ranking from "./Ranking";
 
 
 function AdminDashboard() {
@@ -16,9 +17,9 @@ function AdminDashboard() {
       <div>
       
       </div>
-      <Tabs defaultActiveKey="home" id="uncontrolled-tab-example" className="mb-3">
-  <Tab eventKey="home" title="Rankings">
-    
+      <Tabs defaultActiveKey="ranking" id="uncontrolled-tab-example" className="mb-3">
+  <Tab eventKey="ranking" title="Rankings">
+    <Ranking></Ranking>
   </Tab>
   <Tab eventKey="fee" title="Fee Report">
     
