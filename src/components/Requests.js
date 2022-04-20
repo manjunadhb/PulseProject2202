@@ -9,16 +9,14 @@ function Requests() {
   <Breadcrumb.Item active>Requests</Breadcrumb.Item>
   </Breadcrumb>
   <div className='rqvstHeader'>
-    <div><FaGift /></div>
-    <div><h4>Create a Request</h4></div>
+    <div className='iconContainer'>
+    <FaGift className='giftIcon'/>
+    <h4 className='h4'>Create a Request</h4>
+    </div>
   </div>
   <div className='contentConatainer' >
-    
-        
- 
-  
-    <div>
-    <label>Request Type</label>
+    <div className='inputContainer'>
+    <label className='label'>Request Type</label>
     <select>
       <input ></input>
       <option>Select</option>

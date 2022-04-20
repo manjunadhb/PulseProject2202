@@ -11,6 +11,8 @@ import ManageUsers from "./ManageUsers";
 import FeeReport from "./FeeReport";
 import AdminMessages from "./AdminMessages";
 import Requests from "./Requests";
+import BatchSummary from "./BatchSummary";
+import Tasks from "./Tasks";
 
 
 
@@ -20,9 +22,9 @@ function AdminDashboard() {
       <div>
         <AdminTopNavigation/>
       </div>
-      <div>
+      <div className="tabContainer">
       
-      </div>
+      
       <Tabs defaultActiveKey="ranking" id="uncontrolled-tab-example" className="mb-3">
   <Tab eventKey="ranking" title="Rankings">
     <Ranking></Ranking>
@@ -32,7 +34,7 @@ function AdminDashboard() {
     
   </Tab>
   <Tab eventKey="batchsummary" title="Batches Summary">
-   
+   <BatchSummary></BatchSummary>
   </Tab>
   <Tab eventKey="request" title="Requests">
    <Requests></Requests>
@@ -41,7 +43,7 @@ function AdminDashboard() {
    <AdminMessages/>
   </Tab>
   <Tab eventKey="task" title="Manage Tasks">
-   
+   <Tasks></Tasks>
   </Tab>
   <Tab eventKey="manageusers" title="Manage Users">
 
@@ -55,6 +57,8 @@ function AdminDashboard() {
 
   </Tab>
 </Tabs>
+
+</div>
     </div>
   );
    }
