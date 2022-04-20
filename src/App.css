@@ -11504,5 +11504,47 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.messageBody
+{
+  background-color: antiquewhite;
+  height: 600px;
+}
+.para{
+  font-size: 30px;
+  text-align: left;
+}
+.activities
+{
+  background-color: rgb(100, 100, 187);
+  text-align: left;
+}
+.select
+{
+  display: flex;
+  justify-content: space-between;
+}
+#burgers
+{
+  width:200px;
+  border: ridge;
+}
+.datatable
+{
+  width: 1000px;
+  text-align: center;
+}
+.datatable{
+  height: 40px;
+}
+a{
+  text-decoration: none;
+  text-align: left;
+}
+.data{
+  height: 50px;
+}
+
+
+
 
 /*# sourceMappingURL=App.css.map */
