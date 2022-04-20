@@ -8,7 +8,7 @@ function AdminMessages() {
     const handleShow = () => setShow(true);
 
   return (
-    <div>
+    <div className='msg'>
         <h1> admin messages</h1>
         <Button variant='primary'  onClick={handleShow}>
         send message

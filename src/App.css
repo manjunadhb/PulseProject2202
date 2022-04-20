@@ -171,7 +171,10 @@ input[type=password], input[type=number], textarea {
 .mg{
   background-color: white;
 }
+.msg{
+  background-color: white;
 
+}
 
 .manage{
   height: 50px;
