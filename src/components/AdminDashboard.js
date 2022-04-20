@@ -6,6 +6,7 @@ import React, { Suspense } from "react";
 import AdminTopNavigation from "./AdminTopNavigation";
 import {Tabs,Tab } from "react-bootstrap"
 import Ranking from "./Ranking";
+import ManageUsers from "./ManageUsers";
 
 
 function AdminDashboard() {
@@ -37,7 +38,7 @@ function AdminDashboard() {
    
   </Tab>
   <Tab eventKey="manageusers" title="Manage Users">
-   
+   <ManageUsers/>
   </Tab>
 </Tabs>
     </div>

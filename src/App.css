@@ -96,7 +96,31 @@ input[type=password], input[type=number], textarea {
   margin-left: 30px;
   margin-right: 30px;
 }
+.im{
+  width:100px;
+}
+.mg{
+  background-color: white;
+}
 
+
+.manage{
+  height: 50px;
+  width: 1250px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(0, 174, 255);
+  color: white;
+  
+}
+.option{
+  display: flex;
+  justify-content: space-between;
+  width: 1250px;
+}
 img {
   margin-left: 30px;
 }
