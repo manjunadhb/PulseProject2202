@@ -9,7 +9,7 @@ function AdminMessages() {
 
   return (
     <div className='msg'>
-        <h1> admin messages</h1>
+        
         <Button variant='primary'  onClick={handleShow}>
         send message
       </Button>
@@ -63,7 +63,7 @@ function AdminMessages() {
     
     </tr>
   </tbody>
-  <a href='Messages'> add more</a>
+  <a> add more</a>
 
   
 
