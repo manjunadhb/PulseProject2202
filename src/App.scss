@@ -262,5 +262,18 @@
   font-size: 20px;
 }
 
+.fee
+{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.feelabel
+{
+  color:white;
+  font-size: 20px;
+}
+
 
   @import "../node_modules/bootstrap/scss/bootstrap.scss"

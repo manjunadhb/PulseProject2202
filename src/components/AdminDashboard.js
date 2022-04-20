@@ -6,6 +6,7 @@ import React, { Suspense } from "react";
 import AdminTopNavigation from "./AdminTopNavigation";
 import {Tabs,Tab } from "react-bootstrap"
 import Ranking from "./Ranking";
+import FeeReport from "./FeeReport";
 
 
 function AdminDashboard() {
@@ -22,6 +23,7 @@ function AdminDashboard() {
     <Ranking></Ranking>
   </Tab>
   <Tab eventKey="fee" title="Fee Report">
+    <FeeReport/>
     
   </Tab>
   <Tab eventKey="batchsummary" title="Batches Summary">
