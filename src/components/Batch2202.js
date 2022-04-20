@@ -1,48 +1,10 @@
 import React from 'react'
-import {Button,Form,Breadcrumb} from "react-bootstrap"
+import {Accordion,Table} from "react-bootstrap"
 
-
-function FeeReport() {
+function Batch2202() {
   return (
-      <div >
-    
-    <Breadcrumb>
-  <Breadcrumb.Item active>Dashboard</Breadcrumb.Item>
-  <Breadcrumb.Item active>Fee report</Breadcrumb.Item>
-</Breadcrumb>
-
-<div className="fee">
-    <label className='feelabel'>Report For</label>
-     
-      <Form.Select defaultValue="Select..." style={{width:"500px"}}>
-        <option>Choose...</option>
-        <option >2201</option>
-        <option >2112</option>
-        <option >2111</option>
-        <option >2110</option>
-        <option >2108</option>
-        <option >2106</option>
-        <optgroup label="Completed Batches">
-        <option >2103</option>
-        <option >2101</option>
-        <option >2012</option>
-        <option >2011</option>
-        <option >2010</option>
-        <option >2006</option>
-        <option >2003</option>
-        <option >2001</option>
- </optgroup>
-      </Form.Select>
-   
-    <Button variant="primary" onClick={()=>
-        {
-          
-    
-      }}>Get Report</Button>{' '}
-
-    </div>
-    <br></br><br></br>
-      {/* <Accordion>
+    <div>
+        <Accordion>
   <Accordion.Item eventKey="0">
     <Accordion.Header> <h5>2202 - Started from: 14-Feb-22</h5></Accordion.Header>
     <Accordion.Body>
@@ -201,10 +163,9 @@ function FeeReport() {
     </Accordion.Body>
   </Accordion.Item>
   
-</Accordion> */}
-    </div>
-    
+</Accordion>
+        </div>
   )
 }
 
-export default FeeReport
+export default Batch2202

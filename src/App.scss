@@ -262,6 +262,7 @@
   font-size: 20px;
 }
 
+
 .ranHeading1
 {
   height: 40px;
@@ -330,7 +331,20 @@
 {
   border: 2px solid black;
   padding: 20px;
+
+.fee
+{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.feelabel
+{
+  color:white;
+  font-size: 20px;
+
 }
 
 
-  @import "../node_modules/bootstrap/scss/bootstrap.scss"
+@import '../node_modules/bootstrap/scss/bootstrap.scss' ;}
