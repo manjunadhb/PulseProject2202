@@ -7,6 +7,7 @@ import AdminTopNavigation from "./AdminTopNavigation";
 import {Tabs,Tab } from "react-bootstrap"
 import Ranking from "./Ranking";
 import FeeReport from "./FeeReport";
+import AdminMessages from "./AdminMessages";
 
 
 function AdminDashboard() {
@@ -33,13 +34,17 @@ function AdminDashboard() {
    
   </Tab>
   <Tab eventKey="message" title="Messages">
-   
+   <AdminMessages/>
   </Tab>
   <Tab eventKey="task" title="Manage Tasks">
    
   </Tab>
   <Tab eventKey="manageusers" title="Manage Users">
+
     
+
+    
+
    
   </Tab>
 </Tabs>
