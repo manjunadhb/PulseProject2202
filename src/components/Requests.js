@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaGift } from "react-icons/fa";
 import {Breadcrumb} from "react-bootstrap"
 function Requests() {
   return (
@@ -8,7 +9,7 @@ function Requests() {
   <Breadcrumb.Item active>Requests</Breadcrumb.Item>
   </Breadcrumb>
   <div className='rqvstHeader'>
-    <div><img src='https://www.freeiconspng.com/uploads/gift-box-icon-2.png' height= "20px" width= "20px" alt='home'></img></div>
+    <div><FaGift /></div>
     <div><h4>Create a Request</h4></div>
   </div>
   <div className='contentConatainer' >
@@ -73,7 +74,11 @@ function Requests() {
 </div>
 
 <div>
-  <input type="submit"></input>
+ <button onClick={
+   ()=>{
+     alert("plz submit")
+   }
+}>Submit</button>
 </div>
 </div>
  </div>
