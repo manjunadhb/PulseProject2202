@@ -6,7 +6,11 @@ import React, { Suspense } from "react";
 import AdminTopNavigation from "./AdminTopNavigation";
 import {Tabs,Tab } from "react-bootstrap"
 import Ranking from "./Ranking";
+
 import ManageUsers from "./ManageUsers";
+import FeeReport from "./FeeReport";
+import AdminMessages from "./AdminMessages";
+
 
 
 function AdminDashboard() {
@@ -23,6 +27,7 @@ function AdminDashboard() {
     <Ranking></Ranking>
   </Tab>
   <Tab eventKey="fee" title="Fee Report">
+    <FeeReport/>
     
   </Tab>
   <Tab eventKey="batchsummary" title="Batches Summary">
@@ -32,13 +37,21 @@ function AdminDashboard() {
    
   </Tab>
   <Tab eventKey="message" title="Messages">
-   
+   <AdminMessages/>
   </Tab>
   <Tab eventKey="task" title="Manage Tasks">
    
   </Tab>
   <Tab eventKey="manageusers" title="Manage Users">
+
    <ManageUsers/>
+
+    
+
+    
+
+   
+
   </Tab>
 </Tabs>
     </div>

@@ -1,4 +1,73 @@
 @charset "UTF-8";
+.ranHeading1
+{
+  height: 40px;
+  width: 1200px;
+  background-color: wheat;
+}
+.ranHeading2
+{
+  height: 40px;
+  width: 1200px;
+  background-color: rgb(18, 150, 216);
+}
+.ranImg
+{
+  height: 300px; width: 300px;
+}
+.ranMain1
+{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.ranSmall
+{
+  display: flex;
+  justify-content: space-between;
+  width: 1150px;
+  height: 80px;
+}
+.ranSel
+{
+  height: 35px;
+  width: 100px;
+  border: 1px solid black;
+}
+.ranTable1
+{
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 22px;
+}
+.ranTable2
+{
+  width:1150px;
+  border:1px solid black;
+  text-align: center;
+  border-collapse: collapse;
+  font-size: 22px;
+}
+.ranMain2
+{
+  border: 2px solid rgb(18, 150, 216);
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+}
+.ranStu
+{
+  color:rgb(18, 150, 216) ;
+  text-align: center;
+}
+.ranBody
+{
+  border: 2px solid black;
+  padding: 20px;
+}
 .App {
   text-align: center;
   background-color: #333333;
@@ -270,7 +339,7 @@ h6, .h6 {
   align-content: center;
 }
 
-thead {
+/* thead {
   background-color: rgb(219, 141, 141);
   width: 100%;
 }
@@ -289,7 +358,7 @@ tr:nth-child(even) {
 
 tr:nth-child(odd) {
   background-color: rgb(250, 250, 178);
-}
+} */
 
 .formreport {
   display: flex;
@@ -298,6 +367,17 @@ tr:nth-child(odd) {
 }
 
 .reportlabel {
+  color: white;
+  font-size: 20px;
+}
+
+.fee {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.feelabel {
   color: white;
   font-size: 20px;
 }

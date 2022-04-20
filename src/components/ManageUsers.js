@@ -34,7 +34,7 @@ function ManageUsers() {
 
 
     <Table striped bordered hover variant="lightdark">
-        <Table striped bordered hover size="lg">
+        
     <tbody>
  
 
@@ -114,7 +114,7 @@ function ManageUsers() {
 
     </tbody>
 </Table>
-</Table>
+
 
 
 
