@@ -10,6 +10,7 @@ import Ranking from "./Ranking";
 import ManageUsers from "./ManageUsers";
 import FeeReport from "./FeeReport";
 import AdminMessages from "./AdminMessages";
+import ManageTask from "./ManageTask";
 
 
 
@@ -40,7 +41,7 @@ function AdminDashboard() {
    <AdminMessages/>
   </Tab>
   <Tab eventKey="task" title="Manage Tasks">
-   
+   <ManageTask/>
   </Tab>
   <Tab eventKey="manageusers" title="Manage Users">
 

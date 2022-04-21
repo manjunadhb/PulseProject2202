@@ -5,8 +5,8 @@ function AdminManage() {
   return (
     <div>
       <AdminTopNavigation />
-      <h1>Admin Manage</h1>
-    </div>
+      </div>
+  
   );
 }
 
