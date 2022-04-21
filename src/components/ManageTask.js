@@ -1,12 +1,5 @@
-<<<<<<< HEAD
-import React from 'react'
-import {Tabs,Tab} from 'react-bootstrap';
-
-
-=======
 import React from "react";
 import { Tabs, Tab } from "react-bootstrap";
->>>>>>> 3acc7652650d1000eeb161ff63650602b57ed1ae
 
 function ManageTask() {
   return (
