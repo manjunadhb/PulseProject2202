@@ -2,7 +2,11 @@ import React from 'react'
 
 function Tasks() {
   return (
-    <div>Tasks</div>
+    <div >
+      <div className='taskContainer'>
+    Tasks
+    </div>
+    </div>
   )
 }
 
