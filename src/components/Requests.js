@@ -1,12 +1,29 @@
 import React from 'react'
+<<<<<<< HEAD
 
+import {Breadcrumb} from "react-bootstrap"
+=======
+import { FaGift } from "react-icons/fa";
+import {Breadcrumb,Button} from "react-bootstrap"
+>>>>>>> d1e07aa04ea3c00e2c94c5502beea95c6a457b9a
 function Requests() {
   return (
-    <div>
-      <div>
-        <label>Request Type</label>
-<select>
-    <input ></input>
+  <div className='rqvstContainer'>
+  <Breadcrumb>
+  <Breadcrumb.Item active>Dashboard</Breadcrumb.Item>
+  <Breadcrumb.Item active>Requests</Breadcrumb.Item>
+  </Breadcrumb>
+  <div className='rqvstHeader'>
+    <div className='iconContainer'>
+    
+    <h4 className='h4'>Create a Request</h4>
+    </div>
+  </div>
+  <div className='contentConatainer' >
+    <div className='inputContainer'>
+    <label className='label'>Request Type</label>
+    <select>
+      <input ></input>
       <option>Select</option>
       <option value="">New software installation</option>
       <option value="">Unable to login thru my user name</option>
@@ -40,27 +57,31 @@ function Requests() {
     </div>
     <div>
 <label>Lab ID</label>
-    <select>
+<select>
     <input ></input>
-      <option>Select</option>
-      </select>
-
+    <option>Select</option>
+</select>
     </div>
     <div>
 <label> Seat Number</label>
 <select>
 <input ></input>
-  <option>Select</option>
-  </select>
+<option>Select</option>
+</select>
 
 </div>
 <div>
   <label>Description</label>
-  <input placeholder='Ticket Description'type="text"></input>
+  <textarea placeholder='Ticket Description' type="text"></textarea>
+  <p>Please describe in detail</p>
 </div>
 
 <div>
-  <input type="submit"></input>
+<Button variant="success" onClick={
+   ()=>{
+     alert("You have some form errors. Please check below.")
+   }}>Submit</Button>{' '}
+</div>
 </div>
  </div>
 
