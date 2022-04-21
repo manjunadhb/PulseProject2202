@@ -11410,3 +11410,41 @@ textarea.form-control-lg {
 }
 
 /*# sourceMappingURL=App.css.map */
+
+h1
+{
+  color:#04aa6d;
+  background-color: var(--bs-warning);
+}
+label
+{
+  color: crimson;
+  background-color: var(--bs-gray-400);
+  
+}
+.body
+{
+  background-color: white;
+}
+h3
+{
+  background-color: var(--bs-gray-500);
+  text-align: left;
+}
+.bt
+{
+  text-align: left;
+  
+}
+label
+{
+  width: 250px;
+  height: 54px;
+  text-align: center;
+  margin-right: 5px;
+  padding-top: 13px;
+}
+button
+{
+  background-color: green;
+}
