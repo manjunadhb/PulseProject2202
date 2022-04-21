@@ -255,10 +255,6 @@ thead {
   width: 100%;
 }
 
-.rankingcss {
-  height: fit-content;
-}
-
 th {
   width: 2%;
 }
@@ -284,6 +280,12 @@ tr:nth-child(odd) {
 .reportlabel {
   color: black;
   font-size: 20px;
+}
+
+.rankaccordion {
+  color: blue;
+  font-family: verdana;
+  font-size: 14px;
 }
 
 .ranHeading1 {
