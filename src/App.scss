@@ -29,13 +29,17 @@
   }
   .registerbtn {
     background-color: #04aa6d;
-    color: white;
+    color: rgb(77, 19, 201);
     padding: 16px 20px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
     width: 100%;
     opacity: 0.9;
+  }
+  .tabContainer
+  {
+    background-color: white;
   }
   .registerbtn:hover {
     opacity: 3;
@@ -331,6 +335,7 @@
 {
   border: 2px solid black;
   padding: 20px;
+}
 
 .fee
 {
@@ -347,4 +352,4 @@
 }
 
 
-@import '../node_modules/bootstrap/scss/bootstrap.scss' ;}
+@import '../node_modules/bootstrap/scss/bootstrap.scss'
