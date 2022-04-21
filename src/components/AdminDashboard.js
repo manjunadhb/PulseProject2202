@@ -4,15 +4,17 @@ import AdminSettings from "./AdminSettings";
 import { BrowserRouter, Link, Route, Routes, NavLink } from "react-router-dom";
 import React, { Suspense } from "react";
 import AdminTopNavigation from "./AdminTopNavigation";
-import {Tabs,Tab } from "react-bootstrap"
+import {Tabs,Tab} from "react-bootstrap"
 import Ranking from "./Ranking";
 
 import ManageUsers from "./ManageUsers";
 import FeeReport from "./FeeReport";
 import AdminMessages from "./AdminMessages";
+import ManageTask from "./ManageTask";
 import Requests from "./Requests";
 import BatchSummary from "./BatchSummary";
 import Tasks from "./Tasks";
+
 
 
 
@@ -43,7 +45,9 @@ function AdminDashboard() {
    <AdminMessages/>
   </Tab>
   <Tab eventKey="task" title="Manage Tasks">
-   <Tasks></Tasks>
+
+   <ManageTask/>
+
   </Tab>
   <Tab eventKey="manageusers" title="Manage Users">
 

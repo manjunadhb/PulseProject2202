@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaGift } from "react-icons/fa";
-import {Breadcrumb} from "react-bootstrap"
+import {Breadcrumb,Button} from "react-bootstrap"
 function Requests() {
   return (
   <div className='rqvstContainer'>
@@ -10,7 +10,7 @@ function Requests() {
   </Breadcrumb>
   <div className='rqvstHeader'>
     <div className='iconContainer'>
-    <FaGift className='giftIcon'/>
+    
     <h4 className='h4'>Create a Request</h4>
     </div>
   </div>
@@ -72,11 +72,10 @@ function Requests() {
 </div>
 
 <div>
- <button onClick={
+<Button variant="success" onClick={
    ()=>{
      alert("You have some form errors. Please check below.")
-   }
-}>Submit</button>
+   }}>Submit</Button>{' '}
 </div>
 </div>
  </div>

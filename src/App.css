@@ -9740,3 +9740,41 @@ a > .ranBody code {
 }
 
 /*# sourceMappingURL=App.css.map */
+.rqvstContainer{
+  background-color: white;
+  padding-bottom: 1000px;
+}
+.rqvstHeader{
+display: flex;
+justify-content: left;
+background-color: #8e5fa2;
+color: white;
+}
+.contentConatainer{
+  border: 2px solid #8e5fa2;
+}
+.h4{
+  font-family: "Open Sans", sans-serif;
+  padding-left: 10px;
+  font-size: 18px;
+}
+.giftIcon{
+  padding-left: 4px;
+}
+.iconContainer{
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+}
+/* .inputContainer{
+  display: flex;
+  justify-content: center;
+} */
+.label{
+ text-align: left;
+}
+.tabContainer{
+  background-color: white;
+}
+
+
