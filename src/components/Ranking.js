@@ -9,7 +9,7 @@ function Ranking() {
   <Breadcrumb.Item active>Dashboard</Breadcrumb.Item>
   <Breadcrumb.Item active>Ranking</Breadcrumb.Item>
 </Breadcrumb>
-
+<div className='reportContainer'>
 
       <div className = "formreport">
        <label className ="reportlabel" >Report For</label>           
@@ -196,10 +196,11 @@ function Ranking() {
     </tr>
   </tbody>
 </Table>
-    </Accordion.Body>
+  </Accordion.Body>
   </Accordion.Item>
   
 </Accordion>
+</div>
     </div>
   )
 }

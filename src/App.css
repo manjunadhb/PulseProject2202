@@ -170,10 +170,15 @@ input[type=password], input[type=number], textarea {
 }
 .mg{
   background-color: white;
+  padding-bottom: 1000px;
 }
 .msg{
   background-color: white;
+  padding-bottom: 1000px;
 
+}
+.taskContainer{
+  padding-bottom: 1000px;
 }
 
 .manage{
@@ -328,6 +333,7 @@ h6, .h6 {
 
 .styleBatchSummary {
   background-color: beige;
+  padding-bottom: 700px;
 }
 
 .tableBatchSummary {
@@ -367,6 +373,10 @@ tr:nth-child(odd) {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  
+}
+.reportContainer{
+  padding-bottom: 650px;
 }
 
 .reportlabel {
@@ -378,6 +388,7 @@ tr:nth-child(odd) {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding-bottom: 700px;
 }
 
 .feelabel {
@@ -11504,5 +11515,85 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.messageBody
+{
+  background-color: antiquewhite;
+  height: 600px;
+}
+.para{
+  font-size: 30px;
+  text-align: left;
+}
+.activities
+{
+  background-color: rgb(100, 100, 187);
+  text-align: left;
+}
+.select
+{
+  display: flex;
+  justify-content: space-between;
+}
+#burgers
+{
+  width:200px;
+  border: ridge;
+}
+.datatable
+{
+  width: 1000px;
+  text-align: center;
+}
+.datatable{
+  height: 40px;
+}
+a{
+  text-decoration: none;
+  text-align: left;
+}
+.data{
+  height: 50px;
+}
+
+
+
 
 /*# sourceMappingURL=App.css.map */
+
+.rqvstContainer{
+  background-color: white;
+  padding-bottom: 1000px;
+}
+.rqvstHeader{
+display: flex;
+justify-content: left;
+background-color: #8e5fa2;
+color: white;
+}
+.contentConatainer{
+  border: 2px solid #8e5fa2;
+}
+.h4{
+  font-family: "Open Sans", sans-serif;
+  padding-left: 10px;
+  font-size: 18px;
+}
+.giftIcon{
+  padding-left: 4px;
+}
+.iconContainer{
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+}
+/* .inputContainer{
+  display: flex;
+  justify-content: center;
+} */
+.label{
+ text-align: left;
+}
+.tabContainer{
+  background-color: white;
+}
+

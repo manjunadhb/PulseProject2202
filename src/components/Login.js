@@ -96,9 +96,6 @@ function Login() {
             </nav>
         </div>
         <br />
-         {/* Forgot <a href="#">Password</a><br></br> */}
-       
-
         <button
           type="submit"
           className="registerCreateBtn"

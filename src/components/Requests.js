@@ -1,12 +1,24 @@
 import React from 'react'
 
+import {Breadcrumb} from "react-bootstrap"
 function Requests() {
   return (
-    <div>
-      <div>
-        <label>Request Type</label>
-<select>
-    <input ></input>
+  <div className='rqvstContainer'>
+  <Breadcrumb>
+  <Breadcrumb.Item active>Dashboard</Breadcrumb.Item>
+  <Breadcrumb.Item active>Requests</Breadcrumb.Item>
+  </Breadcrumb>
+  <div className='rqvstHeader'>
+    <div className='iconContainer'>
+    
+    <h4 className='h4'>Create a Request</h4>
+    </div>
+  </div>
+  <div className='contentConatainer' >
+    <div className='inputContainer'>
+    <label className='label'>Request Type</label>
+    <select>
+      <input ></input>
       <option>Select</option>
       <option value="">New software installation</option>
       <option value="">Unable to login thru my user name</option>
@@ -40,27 +52,32 @@ function Requests() {
     </div>
     <div>
 <label>Lab ID</label>
-    <select>
+<select>
     <input ></input>
-      <option>Select</option>
-      </select>
-
+    <option>Select</option>
+</select>
     </div>
     <div>
 <label> Seat Number</label>
 <select>
 <input ></input>
-  <option>Select</option>
-  </select>
+<option>Select</option>
+</select>
 
 </div>
 <div>
   <label>Description</label>
-  <input placeholder='Ticket Description'type="text"></input>
+  <textarea placeholder='Ticket Description' type="text"></textarea>
+  <p>Please describe in detail</p>
 </div>
 
 <div>
-  <input type="submit"></input>
+ <button onClick={
+   ()=>{
+     alert("You have some form errors. Please check below.")
+   }
+}>Submit</button>
+</div>
 </div>
  </div>
 
