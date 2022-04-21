@@ -255,6 +255,10 @@ thead {
   width: 100%;
 }
 
+.rankingcss {
+  height: fit-content;
+}
+
 th {
   width: 2%;
 }
