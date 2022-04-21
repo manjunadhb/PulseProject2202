@@ -252,13 +252,13 @@
 .formreport
 {
   display:flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
 }
 
 .reportlabel
 {
-  color:white;
+  color:black;
   font-size: 20px;
 }
 
