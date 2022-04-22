@@ -1,9 +1,10 @@
-import {React} from 'react';
+import {React,useState} from 'react';
 import Accordion from 'react-bootstrap/Accordion'
 import {Collapse,Button} from 'react-bootstrap'
 
 
 function CreateTask() {
+    const [open, setOpen] = useState(false);
 
   return (
     <div>
