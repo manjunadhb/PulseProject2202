@@ -3,86 +3,51 @@ import AdminReports from "./AdminReports";
 import AdminSettings from "./AdminSettings";
 import { BrowserRouter, Link, Route, Routes, NavLink } from "react-router-dom";
 import React, { Suspense } from "react";
+import AdminTopNavigation from "./AdminTopNavigation";
+import { Tabs, Tab, TabContainer, TabPane } from "react-bootstrap";
+import Ranking from "./Ranking";
+import ManageUsers from "./ManageUsers";
+import FeeReport from "./FeeReport";
+import AdminMessages from "./AdminMessages";
+import ManageTask from "./ManageTask";
+import Requests from "./Requests";
+import BatchSummary from "./BatchSummary";
+import Tasks from "./Tasks";
 
 function AdminDashboard() {
-  let highlightNavLink = (obj) => {
-    if (obj.isActive === true) {
-      return {
-        backgroundColor: "green",
-        color: "White",
-      };
-    }
-  };
   return (
-    <div className="App1">
-      <div className="bannerContainer">
-        <div>
-          <img src="https://pulse.brninfotech.com/pulse/assets/admin/layout/img/logo.png"></img>
-        </div>
-        <div className="navContainer">
-          <nav>
-            <button className="buttonClass">
-              {" "}
-              <NavLink
-                to="/adminDashboard"
-                style={(obj) => highlightNavLink(obj)}
-              >
-                Dashboard
-              </NavLink>
-            </button>
-            <button className="buttonClass">
-              {" "}
-              <NavLink
-                to="/adminReports"
-                style={(obj) => highlightNavLink(obj)}
-              >
-                Reports{" "}
-              </NavLink>
-            </button>
-            <button className="buttonClass">
-              {" "}
-              <NavLink to="/adminManage" style={(obj) => highlightNavLink(obj)}>
-                Manages{" "}
-              </NavLink>
-            </button>
-            <button className="buttonClass">
-              {" "}
-              <NavLink
-                to="/batchSummary"
-                style={(obj) => highlightNavLink(obj)}
-              >
-                Batch Summary
-              </NavLink>
-            </button>
-            <button className="buttonClass">
-              {" "}
-              <NavLink
-                to="/adminSettings"
-                style={(obj) => highlightNavLink(obj)}
-              >
-                Settings
-              </NavLink>
-            </button>
-          </nav>
-        </div>
-        <div className="imageContainer">
-          <img
-            src="https://img.indiaforums.com/person/640x480/0/1033-ranbir-kapoor.jpg?c=1vF2D7"
-            className="image"
-            width="40px"
-            height="55px"
-          ></img>
-          <h6>Ranbir Kapoor</h6>
-        </div>
-        <Suspense fallback={<div>Loading.........</div>}>
-          <Routes>
-            {/* <Route path="/adminHome" element={<AdminHome />}></Route> */}
-            <Route path="/adminDashboard" element={<AdminDashboard />}></Route>
-            <Route path="/adminReports" element={<AdminReports />}></Route>
-            <Route path="/adminManage" element={<AdminManage />}></Route>
-            <Route path="/adminSettings" element={<AdminSettings />}></Route>
-          </Routes>
-        </Suspense>
+    <div>
+      <div>
+        <AdminTopNavigation />
+      </div>
+      <div className="tabContainer">
+        <Tabs
+          defaultActiveKey="ranking"
+          id="uncontrolled-tab-example"
+          className="mb-3"
+        >
+          <Tab eventKey="ranking" title="Rankings">
+            <Ranking></Ranking>
+          </Tab>
+          <Tab eventKey="fee" title="Fee Report">
+            <FeeReport />
+          </Tab>
+          <Tab eventKey="batchsummary" title="Batches Summary">
+            <BatchSummary></BatchSummary>
+          </Tab>
+          <Tab eventKey="request" title="Requests">
+            <Requests></Requests>
+          </Tab>
+          <Tab eventKey="message" title="Messages">
+            <AdminMessages />
+          </Tab>
+          <Tab eventKey="task" title="Manage Tasks">
+            <ManageTask />
+          </Tab>
+          <Tab eventKey="manageusers" title="Manage Users">
+            <ManageUsers />
+          </Tab>
+        </Tabs>
       </div>
     </div>
   );

@@ -1,0 +1,362 @@
+.App {
+    text-align: center;
+    background-color: #333333;
+    height: 950px;
+  }
+  .App1 {
+    text-align: center;
+    background-color: white;
+    height: 950px;
+  }
+  .login {
+    width: 600px;
+    overflow: hidden;
+    margin: auto;
+    margin: 20 0 0 450px;
+    padding: 80px;
+    background: #eceef1;
+    border-radius: 15px;
+  }
+  input[type="text"],input[type="date"],
+  input[type="password"],input[type="number"],textarea {
+    width: 80%;
+    padding: 15px;
+    font-size: large;
+    margin: 10px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: rgb(220, 238, 232);
+  }
+  .registerbtn {
+    background-color: #04aa6d;
+    color: rgb(77, 19, 201);
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  .tabContainer
+  {
+    background-color: white;
+  }
+  .registerbtn:hover {
+    opacity: 3;
+  }
+  .inputLogin {
+    width: 15%;
+    border-radius: 9px;
+    margin: 3px;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 3px;
+  }
+  .labelLogin {
+    width: 100px;
+    font-size: larger;
+    background-color: white;
+    border-radius: 9px;
+    margin: 3px;
+  }
+  .bannerContainer {
+    height: 55px;
+    background-color: #333333;
+    text-align: left;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .navContainer {
+    background-color: #333333;
+    color: white;
+    text-align: left;
+  }
+  .buttonClass {
+    height: 55px;
+    width: 150px;
+    font-size: large;
+    padding: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .buttonClassOne {
+    height: 55px;
+    width: 150px;
+    font-size: small;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+   img {
+     margin-left: 30px;
+   }
+  .image {
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-right: 20px;
+  }
+  .imageContainer {
+    text-align: right;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  h6 {
+    color: white;
+    margin: 15px;
+    font-size: 15px;
+  }
+  .registerCreateBtn {
+    background-color: #8d9292;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    
+  }
+  /********* CSS for Signup page *************/
+  .containerSignup
+  {
+    border: 2px solid gray;
+    border-radius: 12px;
+    background-color: rgb(252, 249, 239);
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+  }
+  .maindiv
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(73, 71, 71);
+  }
+  .brnLogo
+  {
+    height: 200px;
+    width: 200px;
+  }
+  .buttonSubmit{
+    float : right;
+    background-color: green;
+    padding-top: 3px;
+    width: 40%;
+  }
+  .buttonBack
+  {
+    padding: 3px;
+    width: 40%;
+  }
+  .brnlogo{
+    height: 200px;
+  }
+  
+  .card{
+    background-color: aliceblue;
+  }
+   
+  .submit{
+    height: 40px;
+    width: 70px;
+    background-color: #04aa6d;
+    color: white;
+    cursor: pointer;
+    border: none;
+    opacity:0.9;
+  
+  }
+  .submit:hover {
+    opacity:3;
+  }
+  .cancel{
+    height: 40px;
+    width: 70px;
+    background-color:ghostwhite;
+    color:gray;
+    cursor: pointer;
+    border: none;
+    opacity:0.9;
+  }
+  .cancel:hover{
+  opacity: 3;
+  }
+  .card{
+    width: 280px;
+    height: 100;
+    overflow: hidden;
+    margin: auto;
+    margin: 20 0 0 450px;
+    padding: 40px;
+    background: #eceef1;
+    border-radius: 15px;
+  }
+  
+  .text{
+    color:#04aa6d;
+    font-family: font;
+  }
+  @font-face{
+    font-family: font;
+    src: url('./font.ttf');
+  }
+  .mainContainerForgetpswrd{
+    background-color:rgb(88, 111, 143);
+    padding-bottom: 350px;
+  }
+  .ankerCss{
+    color: #7a8ca5;
+  }
+  
+  .styleBatchSummary{
+    background-color: beige;
+  }
+  
+  .tableBatchSummary{
+    display: flex;
+    flex-flow: column wrap;
+  
+  
+    border: 2px solid rgba(236, 14, 14, 0.742);
+    border-collapse: collapse;
+    box-shadow: 3px 2px rgb(235, 241, 241);
+    text-align: center;
+    margin: 7px;
+    font-size: x-large;
+    align-content: center;
+  
+  }
+  
+  
+  thead{
+    background-color: rgb(219, 141, 141);
+    width: 100%;
+  
+  }
+
+  
+  th{
+    width: 2%;
+  
+  }
+  tr,td,th{
+    border: 2px solid white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #836464b9;
+  }
+  
+  tr:nth-child(odd){
+  background-color:rgb(250, 250, 178);
+  }
+  
+.formreport
+{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.reportlabel
+{
+  color:black;
+  font-size: 20px;
+}
+
+.rankaccordion
+{
+  color:blue;
+  font-family: verdana;
+  font-size : 14px;
+}
+
+.ranHeading1
+{
+  height: 40px;
+  width: 1200px;
+  background-color: wheat;
+}
+.ranHeading2
+{
+  height: 40px;
+  width: 1200px;
+  background-color: rgb(18, 150, 216);
+}
+.ranImg
+{
+  height: 300px; width: 300px;
+}
+.ranMain1
+{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.ranSmall
+{
+  display: flex;
+  justify-content: space-between;
+  width: 1150px;
+  height: 80px;
+}
+.ranSel
+{
+  height: 35px;
+  width: 100px;
+  border: 1px solid black;
+}
+.ranTable1
+{
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 22px;
+}
+.ranTable2
+{
+  width:1150px;
+  border:1px solid black;
+  text-align: center;
+  border-collapse: collapse;
+  font-size: 22px;
+} 
+.ranMain2
+{
+  border: 2px solid rgb(18, 150, 216);
+  width: 1150px;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+}
+.ranStu
+{
+  color:rgb(18, 150, 216) ;
+  text-align: center;
+}
+.ranBody
+{
+  border: 2px solid black;
+  padding: 20px;
+}
+
+.fee
+{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.feelabel
+{
+  color:white;
+  font-size: 20px;
+
+}
+
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss'
