@@ -2618,6 +2618,11 @@
     "path-type" "^4.0.0"
     "yaml" "^1.10.0"
 
+"create@^0.0.2":
+  "integrity" "sha1-oBZ0etTmMdKpfefj5eod3MYYiSs="
+  "resolved" "https://registry.npmjs.org/create/-/create-0.0.2.tgz"
+  "version" "0.0.2"
+
 "cross-spawn@^7.0.2", "cross-spawn@^7.0.3":
   "version" "7.0.3"
   dependencies:
@@ -5673,7 +5678,43 @@
     "indent-string" "^4.0.0"
     "strip-indent" "^3.0.0"
 
+<<<<<<< HEAD
+<<<<<<< HEAD
 "redux@^4.0.0", "redux@^4.2.0":
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+"regenerate-unicode-properties@^10.0.1":
+  "integrity" "sha512-vn5DU6yg6h8hP/2OkQo3K7uVILvY4iu0oI4t3HFa81UPkhGJwkRwM10JEc3upjdhHjs/k8GJY1sRBhk5sr69Bw=="
+  "resolved" "https://registry.npmjs.org/regenerate-unicode-properties/-/regenerate-unicode-properties-10.0.1.tgz"
+  "version" "10.0.1"
+  dependencies:
+    "regenerate" "^1.4.2"
+
+"regenerate@^1.4.2":
+  "integrity" "sha512-zrceR/XhGYU/d/opr2EKO7aRHUeiBI8qjtfHqADTwZd6Szfy16la6kqD0MIUs5z5hx6AaKa+PixpPrR289+I0A=="
+  "resolved" "https://registry.npmjs.org/regenerate/-/regenerate-1.4.2.tgz"
+  "version" "1.4.2"
+
+"regenerator-runtime@^0.13.4", "regenerator-runtime@^0.13.9":
+  "integrity" "sha512-p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA=="
+  "resolved" "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.9.tgz"
+  "version" "0.13.9"
+
+"regenerator-transform@^0.15.0":
+  "integrity" "sha512-LsrGtPmbYg19bcPHwdtmXwbW+TqNvtY4riE3P83foeHRroMbH6/2ddFBfab3t7kbzc7v7p4wbkIecHImqt0QNg=="
+  "resolved" "https://registry.npmjs.org/regenerator-transform/-/regenerator-transform-0.15.0.tgz"
+=======
+"redux@^4.0.0", "redux@^4.1.2":
+=======
+"redux@^4.0.0", "redux@^4.2.0":
+>>>>>>> 08b7e8afff26863716746d74e843835f44435959
+>>>>>>> 53c88b2db20158d0ecf430696d02cf5fe2a0ceef
+  "integrity" "sha512-oSBmcKKIuIR4ME29/AeNUnl5L+hvBq7OaJWzaptTQJAntaPvxIJqfnjbaEiCzzaIz+XmVILfqAM3Ob0aXLPfjA=="
+  "resolved" "https://registry.npmjs.org/redux/-/redux-4.2.0.tgz"
+=======
+"redux@^4.0.0", "redux@^4.2.0":
+>>>>>>> 407fdd84080d51d4fb1b94e4b9988854693bc781
   "version" "4.2.0"
   dependencies:
     "@babel/runtime" "^7.9.2"

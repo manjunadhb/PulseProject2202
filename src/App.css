@@ -11653,4 +11653,48 @@ textarea.form-control-lg {
   }
 }
 
+.messageBody
+{
+  background-color: antiquewhite;
+  height: 600px;
+}
+.para{
+  font-size: 30px;
+  text-align: left;
+}
+.activities
+{
+  background-color: rgb(100, 100, 187);
+  text-align: left;
+}
+.select
+{
+  display: flex;
+  justify-content: space-between;
+}
+#burgers
+{
+  width:200px;
+  border: ridge;
+}
+.datatable
+{
+  width: 1500px;
+  text-align: center;
+}
+.datatable{
+  height: 40px;
+}
+a{
+  text-decoration: none;
+  text-align: left;
+}
+.data{
+  height: 50px;
+}
+
+
+
+ 
+
 /*# sourceMappingURL=App.css.map */
