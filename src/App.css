@@ -533,6 +533,40 @@ body {
   padding: 10px 10px;
 }
 
+.lb1 {
+  width: 200px;
+  margin-left: 30px;
+}
+
+.select1 {
+  width: 200px;
+  height: 40px;
+  margin: 20px;
+}
+
+.bt1 {
+  width: 150px;
+  height: 40px;
+  margin: 20px;
+  background-color: rgb(128, 128, 209);
+  color: white;
+}
+
+.pdiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.pdiv1 {
+  border: 1px solid black;
+  height: 200px;
+  width: 250px;
+  margin: 100px;
+  padding: 30px;
+}
+
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -11652,49 +11686,5 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-
-.messageBody
-{
-  background-color: antiquewhite;
-  height: 600px;
-}
-.para{
-  font-size: 30px;
-  text-align: left;
-}
-.activities
-{
-  background-color: rgb(100, 100, 187);
-  text-align: left;
-}
-.select
-{
-  display: flex;
-  justify-content: space-between;
-}
-#burgers
-{
-  width:200px;
-  border: ridge;
-}
-.datatable
-{
-  width: 1500px;
-  text-align: center;
-}
-.datatable{
-  height: 40px;
-}
-a{
-  text-decoration: none;
-  text-align: left;
-}
-.data{
-  height: 50px;
-}
-
-
-
- 
 
 /*# sourceMappingURL=App.css.map */
