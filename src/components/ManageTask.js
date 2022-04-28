@@ -1,6 +1,7 @@
 import React from "react";
 import { Tabs, Tab } from "react-bootstrap";
 import CreateTask from "./CreateTask";
+import Presentation from "./Presentation";
 
 function ManageTask() {
   return (
@@ -11,7 +12,10 @@ function ManageTask() {
         className="mb-3"
       >
      
-        <Tab eventKey="Presentation" title="Presentation"></Tab>
+        <Tab eventKey="Presentation" title="Presentation">
+          <Presentation/>
+        </Tab>
+
         <Tab eventKey="Task Review" title="Task Review"></Tab>
         <Tab eventKey="CreateTask" title="CreateTask">
         <CreateTask/>
