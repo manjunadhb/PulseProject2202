@@ -1,3 +1,4 @@
+
 .App {
     text-align: center;
     background-color: #333333;
@@ -29,13 +30,17 @@
   }
   .registerbtn {
     background-color: #04aa6d;
-    color: white;
+    color: rgb(77, 19, 201);
     padding: 16px 20px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
     width: 100%;
     opacity: 0.9;
+  }
+  .tabContainer
+  {
+    background-color: white;
   }
   .registerbtn:hover {
     opacity: 3;
@@ -232,6 +237,7 @@
     width: 100%;
   
   }
+
   
   th{
     width: 2%;
@@ -258,10 +264,16 @@
 
 .reportlabel
 {
-  color:white;
+  color:black;
   font-size: 20px;
 }
 
+.rankaccordion
+{
+  color:blue;
+  font-family: verdana;
+  font-size : 14px;
+}
 
 .ranHeading1
 {
@@ -331,6 +343,7 @@
 {
   border: 2px solid black;
   padding: 20px;
+}
 
 .fee
 {
@@ -346,5 +359,217 @@
 
 }
 
+// Css regarding Manage/Holiday
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Open+Sans&family=Rubik+Microbe&family=Rubik+Moonrocks&display=swap');
+.announceHolidayDiv
+{
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    /* background-color: aqua; */
+    color:rgb(77, 75, 75)
+    
+}
+.holidayLbl
+{
+    // display:inline;
+    // flex-direction:row;
+    // align-items:flex-start;
+    // justify-content: flex-start;
+    // background-color: aqua;
+    // color:red;
+    display:block;
+    align-items: flex-start;
+    padding:0px;
+} 
 
-@import '../node_modules/bootstrap/scss/bootstrap.scss' ;}
+.holidayDateCol
+{
+    display:flex;
+    flex-direction: row;
+    // background-color: aqua;
+    justify-content: flex-end;
+    align-items: center;
+}
+.mainDivHoliday
+{
+    margin: 15px;
+}
+
+.holidaySelect1
+{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px 15px;
+  /* background-color:red; */
+}
+
+.holidayAnnounceHeading1,.holidayAnnounceHeading4
+{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.holidaySelect
+{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: space-around;
+  /* background-color: aqua; */
+}
+
+.holidaySpan
+{
+  display: block;
+  /* background-color: aqua; */
+}
+
+.navHoliday
+{
+    font-size: larger;
+    background-color: rgb(231, 230, 230);
+}
+
+.holidayDetailsDiv
+{
+    background-color: blueviolet;
+    font-size:20px;
+    color:azure;
+    display:flex;
+}
+
+.holidayBorderDiv
+{
+ border:2px solid blueviolet;
+
+}
+
+.formSelectHoliday
+{
+    width: 350px;
+    height:30px;
+}
+
+.holidayForm-control1
+{
+    width:150px;
+    height:25px;
+    margin:0px -15px 5px 15px;
+    // background-color: red; 
+}
+
+.holidayForm-control2
+{
+    width:150px;
+    height:25px;
+    margin:1px 1px 1px 0px; 
+//     background-color: red;
+}
+
+.holidayDateContainer
+{
+    // background-color: aquamarine;
+    display:flex;
+    flex-direction: row;
+    align-items:space-around;
+    justify-content: center;
+}
+
+.holidayLbl
+{
+    display:inline;
+    flex-direction:row;
+    align-items:flex-start;
+    justify-content: flex-start;
+    // background-color: aqua;
+}
+
+.holidaySpanTill
+{
+  background-color: darkgray;
+  width: 55px;
+  height:30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin:-6px 1px 3px 1px;
+}
+
+.holidayDateAlign
+{
+  display:flex;
+  margin:2px 5px;
+  /* background-color: aqua; */
+} 
+
+.holiday_span
+{
+    font-size: small;
+}
+
+.holidayOccassionName
+{
+    width: 330px;
+    height:25px;
+}
+
+.holidayDescriptionName
+{
+    width: 200px;
+    height: 20px;
+}
+
+body
+{
+background-color: white;  
+}
+
+.holidayButtons
+{
+    display:flex;
+    height:40px;
+    flex-direction: row;
+    justify-content: center;
+    margin:15px 15px;
+}
+ 
+
+.holidaybtn1
+{
+    margin: 0px 5px;
+}
+
+/////Tasks page css
+.portlet.box.blue {
+  border: 1px solid #60aee4;
+  border-top: 0;
+}
+.portlet > .portlet-body.blue, .portlet.blue {
+  background-color: #3598dc;
+}
+.rowTasks {
+  margin-right: auto;
+  margin-left: auto;
+  width:90%;
+ 
+  background-color: white;
+
+}
+.Tasks .portlet-title {
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  padding: 10px 10px;
+
+}
+
+
+$primary: rgb(50, 102, 50);
+$secondary:rgb(190, 189, 189);
+
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss'

@@ -1,12 +1,15 @@
 import React from "react";
 import AdminTopNavigation from "./AdminTopNavigation";
+import Holiday from "./Holiday";
 
 function AdminManage() {
   return (
     <div>
       <AdminTopNavigation />
-      <h1>Admin Manage</h1>
-    </div>
+      <Holiday/>
+
+      </div>
+  
   );
 }
 
