@@ -4,7 +4,7 @@ import AdminTopNavigation from "./AdminTopNavigation";
 function BatchSummary() {
   return (
     <div>
-      {/* <AdminTopNavigation /> */}
+      <AdminTopNavigation />
 
       <div className="styleBatchSummary">
         <h1>Batch Summary</h1>
