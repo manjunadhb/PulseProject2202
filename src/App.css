@@ -516,6 +516,29 @@ body {
   margin: 0px 5px;
 }
 
+.portlet.box.blue {
+  border: 1px solid #60aee4;
+  border-top: 0;
+}
+
+.portlet > .portlet-body.blue, .portlet.blue {
+  background-color: #3598dc;
+}
+
+.rowTasks {
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
+  background-color: white;
+}
+
+.Tasks .portlet-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
