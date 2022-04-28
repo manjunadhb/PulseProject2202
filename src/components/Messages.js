@@ -20,7 +20,7 @@ function Messages() {
       records
       </div>
       <div>
-        <label>My serch</label>
+        <label>My search</label>
         <input></input>
       </div>
       </div>
@@ -35,7 +35,7 @@ function Messages() {
         </datalist>
        
       
-      <input  type="number" id="burgers" name="burgers" min="1" max="15" placeholder='category' />
+      <input  type="number" id="burgers" name="burgers" placeholder='category' />
       <input  type="number" id="burgers" name="burgers" min="1" max="15" placeholder='subject' />
       <input  type="number" id="burgers" name="burgers" min="1" max="15" placeholder='Delivered on' />
 

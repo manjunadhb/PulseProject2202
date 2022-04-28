@@ -1,3 +1,72 @@
+.ranHeading
+{
+  height: 40px;
+  background-color: wheat;
+} 
+.ranImg
+{
+  height: 300px; width: 300px;
+}
+.ranMain1
+{
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 1200px;
+}
+.ranMain2
+{
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  
+}
+.ranSmall
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  width: 1180px;
+}
+.ranSel
+{
+  height: 35px;
+  width: 100px;
+  border: 1px solid black;
+}
+.ranTable1
+{
+  border: 2px solid black;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 20px;
+}
+.ranTable2
+{
+  width:1180px;
+  border: 2px solid black;
+  text-align: center;
+  border-collapse: collapse;
+  font-size: 20px;
+}
+.ranbody
+{
+    padding: 10px;
+    border: 3px solid green;
+    width: 1250px;
+}
+#ran
+{
+  tr,td,table,th{border: 1px solid black;}
+}
+
+
+
+
+
 
 .App {
     text-align: center;
@@ -275,75 +344,7 @@
   font-size : 14px;
 }
 
-.ranHeading1
-{
-  height: 40px;
-  width: 1200px;
-  background-color: wheat;
-}
-.ranHeading2
-{
-  height: 40px;
-  width: 1200px;
-  background-color: rgb(18, 150, 216);
-}
-.ranImg
-{
-  height: 300px; width: 300px;
-}
-.ranMain1
-{
-  display: flex;
-  justify-content: space-around;
-  margin-top: 50px;
-}
-.ranSmall
-{
-  display: flex;
-  justify-content: space-between;
-  width: 1150px;
-  height: 80px;
-}
-.ranSel
-{
-  height: 35px;
-  width: 100px;
-  border: 1px solid black;
-}
-.ranTable1
-{
-  border: 1px solid black;
-  border-collapse: collapse;
-  text-align: left;
-  font-size: 22px;
-}
-.ranTable2
-{
-  width:1150px;
-  border:1px solid black;
-  text-align: center;
-  border-collapse: collapse;
-  font-size: 22px;
-} 
-.ranMain2
-{
-  border: 2px solid rgb(18, 150, 216);
-  width: 1150px;
-  justify-content: center;
-  align-items: center;
-  justify-content: center;
-  padding: 25px;
-}
-.ranStu
-{
-  color:rgb(18, 150, 216) ;
-  text-align: center;
-}
-.ranBody
-{
-  border: 2px solid black;
-  padding: 20px;
-}
+
 
 .fee
 {
