@@ -9,8 +9,11 @@ function BatchSummary() {
       <div className="styleBatchSummary">
         <h1>Batch Summary</h1>
         <table className="tableBatchSummary">
-          <thead>2106</thead>
-          <br />
+          <thead>
+            <tr>
+              <td>2106</td>
+            </tr>
+          </thead>
           <tbody>
             <tr>
               <th>Type</th>
@@ -45,8 +48,11 @@ function BatchSummary() {
         </table>
 
         <table className="tableBatchSummary">
-          <thead>2108</thead>
-          <br />
+          <thead>
+            <tr>
+              <td>2108</td>
+            </tr>
+          </thead>
           <tbody>
             <tr>
               <th>Type</th>
@@ -81,8 +87,11 @@ function BatchSummary() {
         </table>
 
         <table className="tableBatchSummary">
-          <thead>2109</thead>
-          <br />
+          <thead>
+            <tr>
+              <td>2109</td>
+            </tr>
+          </thead>
           <tbody>
             <tr>
               <th>Type</th>
@@ -117,8 +126,11 @@ function BatchSummary() {
         </table>
 
         <table className="tableBatchSummary">
-          <thead>2111</thead>
-          <br />
+          <thead>
+            <tr>
+              <td>2111</td>
+            </tr>
+          </thead>
           <tbody>
             <tr>
               <th>Type</th>

@@ -27,6 +27,7 @@ function App() {
           <Route path="/" element={<Login />}></Route>
           <Route path="Forgotpassword" element={<Forgotpassword />}></Route>
           <Route path="batchsummary" element={<BatchSummary/>}/>
+          
           //..............................For
           Admin......................................................//
 
