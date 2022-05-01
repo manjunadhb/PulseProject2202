@@ -7,7 +7,8 @@ function Messages() {
    <a className=''href='/home'>Home</a>
       
       <h3 className='activities'>&#9999;Your Messages</h3>
-      <div className='select'>
+      <div className='messageBorder'>     
+         <div className='select'>
         <div>     
       <select  name='records'>
         <option>All</option>
@@ -43,6 +44,8 @@ function Messages() {
         <div>
           <input className='datatable' placeholder='No data available in table'></input>
         </div>
+        </div>
+
         </div>
   )
 }

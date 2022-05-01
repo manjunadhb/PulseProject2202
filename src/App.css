@@ -567,6 +567,40 @@ body {
   padding: 30px;
 }
 
+.messageBody {
+  background-color: #eceef1;
+  height: 1000px;
+}
+
+.para {
+  text-align: left;
+}
+
+.activities {
+  background-color: #3598dc;
+  text-align: left;
+  font-size: 20px;
+}
+
+.select {
+  display: flex;
+  justify-content: space-between;
+}
+
+#burgers {
+  width: 250px;
+}
+
+.datatable {
+  width: 1500px;
+  text-align: center;
+}
+
+.messageBorder {
+  border: 2px solid rgb(71, 71, 143);
+  height: 400px;
+}
+
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors

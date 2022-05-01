@@ -602,5 +602,41 @@ padding: 30px;
 $primary: rgb(50, 102, 50);
 $secondary:rgb(190, 189, 189);
 
+.messageBody
+{
+  background-color: #eceef1;
+  height: 1000px;
+}
+.para
+{
+  
+  text-align: left;
+}
+.activities
+{
+  background-color: #3598dc;
+  text-align: left;
+  font-size:20px;
+}
+.select
+{
+
+  display: flex;
+  justify-content: space-between;
+}
+#burgers
+{
+  width: 250px;
+}
+.datatable
+{
+  width: 1500px;
+  text-align: center;
+}
+.messageBorder
+{
+  border:2px solid rgb(71, 71, 143);
+  height: 400px;
+}
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss'
