@@ -10,7 +10,7 @@ import ManageUsers from "./ManageUsers";
 import FeeReport from "./FeeReport";
 import AdminMessages from "./AdminMessages";
 import ManageTask from "./ManageTask";
-import Requests from "./Requests";
+import AdminRequest from "./AdminRequest";
 import BatchSummary from "./BatchSummary";
 import Tasks from "./Tasks";
 
@@ -36,7 +36,7 @@ function AdminDashboard() {
             <BatchSummary></BatchSummary>
           </Tab>
           <Tab eventKey="request" title="Requests">
-            <Requests></Requests>
+            <AdminRequest/>
           </Tab>
           <Tab eventKey="message" title="Messages">
             <AdminMessages />

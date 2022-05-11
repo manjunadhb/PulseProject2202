@@ -6,6 +6,7 @@ import DSU from "./DSU";
 import Messages from "./Messages";
 import Home from "./Home";
 import More from "./More";
+import Requests from './Requests';
 import React, { Suspense } from "react";
 
 
@@ -50,6 +51,11 @@ const Tasks = () => {
               </NavLink>
             </button>
             <button className="buttonClassOne">
+              <NavLink to="/requests" style={(obj) => highlightNavLink(obj)}>
+                Requests
+              </NavLink>
+            </button>
+            <button className="buttonClassOne">
               <NavLink to="/more" style={(obj) => highlightNavLink(obj)}>
                 More
               </NavLink>
@@ -72,6 +78,7 @@ const Tasks = () => {
             <Route path="/dsu" element={<DSU />}></Route>
             <Route path="/tasks" element={<Tasks />}></Route>
             <Route path="/messages" element={<Messages />}></Route>
+            <Route path="/requests" element={<Requests />}></Route>
             <Route path="/more" element={<More />}></Route>
           </Routes>
         </Suspense>

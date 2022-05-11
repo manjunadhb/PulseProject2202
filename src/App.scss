@@ -1,14 +1,12 @@
-.ranHeading
-{
+.ranHeading {
   height: 40px;
   background-color: wheat;
-} 
-.ranImg
-{
-  height: 300px; width: 300px;
 }
-.ranMain1
-{
+.ranImg {
+  height: 300px;
+  width: 300px;
+}
+.ranMain1 {
   display: flex;
   text-align: center;
   justify-content: space-around;
@@ -16,392 +14,365 @@
   margin-bottom: 50px;
   width: 1200px;
 }
-.ranMain2
-{
+.ranMain2 {
   justify-content: center;
   align-items: center;
   justify-content: center;
-  
 }
-.ranSmall
-{
+.ranSmall {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 80px;
   width: 1180px;
 }
-.ranSel
-{
+.ranSel {
   height: 35px;
   width: 100px;
   border: 1px solid black;
 }
-.ranTable1
-{
+.ranTable1 {
   border: 2px solid black;
   border-collapse: collapse;
   text-align: left;
   font-size: 20px;
 }
-.ranTable2
-{
-  width:1180px;
+.ranTable2 {
+  width: 1180px;
   border: 2px solid black;
   text-align: center;
   border-collapse: collapse;
   font-size: 20px;
 }
-.ranbody
-{
-    padding: 10px;
-    border: 3px solid green;
-    width: 1250px;
+.ranbody {
+  padding: 10px;
+  border: 3px solid green;
+  width: 1250px;
 }
-#ran
-{
-  tr,td,table,th{border: 1px solid black;}
+#ran {
+  tr,
+  td,
+  table,
+  th {
+    border: 1px solid black;
+  }
 }
-
-
-
-
-
 
 .App {
-    text-align: center;
-    background-color: #333333;
-    height: 950px;
-  }
-  .App1 {
-    text-align: center;
-    background-color: white;
-    height: 950px;
-  }
-  .login {
-    width: 600px;
-    overflow: hidden;
-    margin: auto;
-    margin: 20 0 0 450px;
-    padding: 80px;
-    background: #eceef1;
-    border-radius: 15px;
-  }
-  input[type="text"],input[type="date"],
-  input[type="password"],input[type="number"],textarea {
-    width: 80%;
-    padding: 15px;
-    font-size: large;
-    margin: 10px 0 22px 0;
-    display: inline-block;
-    border: none;
-    background: rgb(220, 238, 232);
-  }
-  .registerbtn {
-    background-color: #04aa6d;
-    color: rgb(77, 19, 201);
-    padding: 16px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
-  }
-  .tabContainer
-  {
-    background-color: white;
-  }
-  .registerbtn:hover {
-    opacity: 3;
-  }
-  .inputLogin {
-    width: 15%;
-    border-radius: 9px;
-    margin: 3px;
-    font-size: larger;
-    font-weight: bolder;
-    padding: 3px;
-  }
-  .labelLogin {
-    width: 100px;
-    font-size: larger;
-    background-color: white;
-    border-radius: 9px;
-    margin: 3px;
-  }
-  .bannerContainer {
-    height: 55px;
-    background-color: #333333;
-    text-align: left;
-    margin-bottom: 10px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-  .navContainer {
-    background-color: #333333;
-    color: white;
-    text-align: left;
-  }
-  .buttonClass {
-    height: 55px;
-    width: 150px;
-    font-size: large;
-    padding: 5px;
-    margin-left: 50px;
-    margin-right: 50px;
-  }
-  .buttonClassOne {
-    height: 55px;
-    width: 150px;
-    font-size: small;
-    margin-left: 30px;
-    margin-right: 30px;
-  }
-   img {
-     margin-left: 30px;
-   }
-  .image {
-    border-radius: 50%;
-    margin-left: 30px;
-    margin-right: 20px;
-  }
-  .imageContainer {
-    text-align: right;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  h6 {
-    color: white;
-    margin: 15px;
-    font-size: 15px;
-  }
-  .registerCreateBtn {
-    background-color: #8d9292;
-    color: white;
-    padding: 16px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    
-  }
-  /********* CSS for Signup page *************/
-  .containerSignup
-  {
-    border: 2px solid gray;
-    border-radius: 12px;
-    background-color: rgb(252, 249, 239);
-    width: 400px;
-    align-items: center;
-    justify-content: center;
-  }
-  .maindiv
-  {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(73, 71, 71);
-  }
-  .brnLogo
-  {
-    height: 200px;
-    width: 200px;
-  }
-  .buttonSubmit{
-    float : right;
-    background-color: green;
-    padding-top: 3px;
-    width: 40%;
-  }
-  .buttonBack
-  {
-    padding: 3px;
-    width: 40%;
-  }
-  .brnlogo{
-    height: 200px;
-  }
-  
-  .card{
-    background-color: aliceblue;
-  }
-   
-  .submit{
-    height: 40px;
-    width: 70px;
-    background-color: #04aa6d;
-    color: white;
-    cursor: pointer;
-    border: none;
-    opacity:0.9;
-  
-  }
-  .submit:hover {
-    opacity:3;
-  }
-  .cancel{
-    height: 40px;
-    width: 70px;
-    background-color:ghostwhite;
-    color:gray;
-    cursor: pointer;
-    border: none;
-    opacity:0.9;
-  }
-  .cancel:hover{
+  text-align: center;
+  background-color: #333333;
+  height: 950px;
+}
+.App1 {
+  text-align: center;
+  background-color: white;
+  height: 950px;
+}
+.login {
+  width: 600px;
+  overflow: hidden;
+  margin: auto;
+  margin: 20 0 0 450px;
+  padding: 80px;
+  background: #eceef1;
+  border-radius: 15px;
+}
+input[type="text"],
+input[type="date"],
+input[type="password"],
+input[type="number"],
+textarea {
+  width: 80%;
+  padding: 15px;
+  font-size: large;
+  margin: 10px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: rgb(220, 238, 232);
+}
+.registerbtn {
+  background-color: #04aa6d;
+  color: rgb(77, 19, 201);
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.tabContainer {
+  background-color: white;
+}
+.registerbtn:hover {
   opacity: 3;
-  }
-  .card{
-    width: 280px;
-    height: 100;
-    overflow: hidden;
-    margin: auto;
-    margin: 20 0 0 450px;
-    padding: 40px;
-    background: #eceef1;
-    border-radius: 15px;
-  }
-  
-  .text{
-    color:#04aa6d;
-    font-family: font;
-  }
-  @font-face{
-    font-family: font;
-    src: url('./font.ttf');
-  }
-  .mainContainerForgetpswrd{
-    background-color:rgb(88, 111, 143);
-    padding-bottom: 350px;
-  }
-  .ankerCss{
-    color: #7a8ca5;
-  }
-  
-  .styleBatchSummary{
-    background-color: beige;
-  }
-  
-  .tableBatchSummary{
-    display: flex;
-    flex-flow: column wrap;
-  
-  
-    border: 2px solid rgba(236, 14, 14, 0.742);
-    border-collapse: collapse;
-    box-shadow: 3px 2px rgb(235, 241, 241);
-    text-align: center;
-    margin: 7px;
-    font-size: x-large;
-    align-content: center;
-  
-  }
-  
-  
-  thead{
-    background-color: rgb(219, 141, 141);
-    width: 100%;
-  
-  }
+}
+.inputLogin {
+  width: 15%;
+  border-radius: 9px;
+  margin: 3px;
+  font-size: larger;
+  font-weight: bolder;
+  padding: 3px;
+}
+.labelLogin {
+  width: 100px;
+  font-size: larger;
+  background-color: white;
+  border-radius: 9px;
+  margin: 3px;
+}
+.bannerContainer {
+  height: 55px;
+  background-color: #333333;
+  text-align: left;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  // justify-content: space-evenly;
+}
+.navContainer {
+  background-color: #333333;
+  color: white;
+  text-align: left;
+}
+.buttonClass {
+  height: 55px;
+  width: 150px;
+  font-size: large;
+  padding: 5px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.buttonClassOne {
+  height: 55px;
+  width: 150px;
+  font-size: small;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+img {
+  margin-left: 30px;
+}
+.image {
+  border-radius: 50%;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+.imageContainer {
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+h6 {
+  color: white;
+  margin: 15px;
+  font-size: 15px;
+}
+.registerCreateBtn {
+  background-color: #8d9292;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+/********* CSS for Signup page *************/
+.containerSignup {
+  border: 2px solid gray;
+  border-radius: 12px;
+  background-color: rgb(252, 249, 239);
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+}
+.maindiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(73, 71, 71);
+}
+.brnLogo {
+  height: 200px;
+  width: 200px;
+}
+.buttonSubmit {
+  float: right;
+  background-color: green;
+  padding-top: 3px;
+  width: 40%;
+}
+.buttonBack {
+  padding: 3px;
+  width: 40%;
+}
+.brnlogo {
+  height: 200px;
+}
 
-  
-  th{
-    width: 2%;
-  
-  }
-  tr,td,th{
-    border: 2px solid white;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #836464b9;
-  }
-  
-  tr:nth-child(odd){
-  background-color:rgb(250, 250, 178);
-  }
-  
-.formreport
-{
-  display:flex;
+.card {
+  background-color: aliceblue;
+}
+
+.submit {
+  height: 40px;
+  width: 70px;
+  background-color: #04aa6d;
+  color: white;
+  cursor: pointer;
+  border: none;
+  opacity: 0.9;
+}
+.submit:hover {
+  opacity: 3;
+}
+.cancel {
+  height: 40px;
+  width: 70px;
+  background-color: ghostwhite;
+  color: gray;
+  cursor: pointer;
+  border: none;
+  opacity: 0.9;
+}
+.cancel:hover {
+  opacity: 3;
+}
+.card {
+  width: 280px;
+  height: 100;
+  overflow: hidden;
+  margin: auto;
+  margin: 20 0 0 450px;
+  padding: 40px;
+  background: #eceef1;
+  border-radius: 15px;
+}
+
+.text {
+  color: #04aa6d;
+  font-family: font;
+}
+@font-face {
+  font-family: font;
+  src: url("./font.ttf");
+}
+.mainContainerForgetpswrd {
+  background-color: rgb(88, 111, 143);
+  padding-bottom: 350px;
+}
+.ankerCss {
+  color: #7a8ca5;
+}
+
+.styleBatchSummary {
+  background-color: beige;
+}
+
+.tableBatchSummary {
+  display: flex;
+  flex-flow: column wrap;
+
+  border: 2px solid rgba(236, 14, 14, 0.742);
+  border-collapse: collapse;
+  box-shadow: 3px 2px rgb(235, 241, 241);
+  text-align: center;
+  margin: 7px;
+  font-size: x-large;
+  align-content: center;
+}
+
+thead {
+  background-color: rgb(219, 141, 141);
+  width: 100%;
+}
+
+th {
+  width: 2%;
+}
+tr,
+td,
+th {
+  border: 2px solid white;
+}
+
+tr:nth-child(even) {
+  background-color: #836464b9;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(250, 250, 178);
+}
+
+.formreport {
+  display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
-.reportlabel
-{
-  color:black;
+.reportlabel {
+  color: black;
   font-size: 20px;
 }
 
-.rankaccordion
-{
-  color:blue;
+.rankaccordion {
+  color: blue;
   font-family: verdana;
-  font-size : 14px;
+  font-size: 14px;
 }
 
 // css regarding fee report start from here
 
-.fee
-{
-  display:flex;
+.fee {
+  display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
 
-.feelabel
-{
-  color:black;
+.feelabel {
+  color: black;
   font-size: 20px;
-
 }
 // css regarding fee report end here
 
 // Css regarding Manage/Holiday
-@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Open+Sans&family=Rubik+Microbe&family=Rubik+Moonrocks&display=swap');
-.announceHolidayDiv
-{
-    display:flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    align-items: center;
-    /* background-color: aqua; */
-    color:rgb(77, 75, 75)
-    
+@import url("https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Open+Sans&family=Rubik+Microbe&family=Rubik+Moonrocks&display=swap");
+.announceHolidayDiv {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  /* background-color: aqua; */
+  color: rgb(77, 75, 75);
 }
-.holidayLbl
-{
-    // display:inline;
-    // flex-direction:row;
-    // align-items:flex-start;
-    // justify-content: flex-start;
-    // background-color: aqua;
-    // color:red;
-    display:block;
-    align-items: flex-start;
-    padding:0px;
-} 
-
-.holidayDateCol
-{
-    display:flex;
-    flex-direction: row;
-    // background-color: aqua;
-    justify-content: flex-end;
-    align-items: center;
-}
-.mainDivHoliday
-{
-    margin: 15px;
+.holidayLbl {
+  // display:inline;
+  // flex-direction:row;
+  // align-items:flex-start;
+  // justify-content: flex-start;
+  // background-color: aqua;
+  // color:red;
+  display: block;
+  align-items: flex-start;
+  padding: 0px;
 }
 
-.holidaySelect1
-{
-  display:flex;
+.holidayDateCol {
+  display: flex;
+  flex-direction: row;
+  // background-color: aqua;
+  justify-content: flex-end;
+  align-items: center;
+}
+.mainDivHoliday {
+  margin: 15px;
+}
+
+.holidaySelect1 {
+  display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
@@ -409,140 +380,120 @@
   /* background-color:red; */
 }
 
-.holidayAnnounceHeading1,.holidayAnnounceHeading4
-{
-  font-family: 'Open Sans', sans-serif;
+.holidayAnnounceHeading1,
+.holidayAnnounceHeading4 {
+  font-family: "Open Sans", sans-serif;
 }
 
-.holidaySelect
-{
-  display:flex;
+.holidaySelect {
+  display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: space-around;
   /* background-color: aqua; */
 }
 
-.holidaySpan
-{
+.holidaySpan {
   display: block;
   /* background-color: aqua; */
 }
 
-.navHoliday
-{
-    font-size: larger;
-    background-color: rgb(231, 230, 230);
+.navHoliday {
+  font-size: larger;
+  background-color: rgb(231, 230, 230);
 }
 
-.holidayDetailsDiv
-{
-    background-color: blueviolet;
-    font-size:20px;
-    color:azure;
-    display:flex;
+.holidayDetailsDiv {
+  background-color: blueviolet;
+  font-size: 20px;
+  color: azure;
+  display: flex;
 }
 
-.holidayBorderDiv
-{
- border:2px solid blueviolet;
-
+.holidayBorderDiv {
+  border: 2px solid blueviolet;
 }
 
-.formSelectHoliday
-{
-    width: 350px;
-    height:30px;
+.formSelectHoliday {
+  width: 350px;
+  height: 30px;
 }
 
-.holidayForm-control1
-{
-    width:150px;
-    height:25px;
-    margin:0px -15px 5px 15px;
-    // background-color: red; 
+.holidayForm-control1 {
+  width: 150px;
+  height: 25px;
+  margin: 0px -15px 5px 15px;
+  // background-color: red;
 }
 
-.holidayForm-control2
-{
-    width:150px;
-    height:25px;
-    margin:1px 1px 1px 0px; 
-//     background-color: red;
+.holidayForm-control2 {
+  width: 150px;
+  height: 25px;
+  margin: 1px 1px 1px 0px;
+  //     background-color: red;
 }
 
-.holidayDateContainer
-{
-    // background-color: aquamarine;
-    display:flex;
-    flex-direction: row;
-    align-items:space-around;
-    justify-content: center;
+.holidayDateContainer {
+  // background-color: aquamarine;
+  display: flex;
+  flex-direction: row;
+  align-items: space-around;
+  justify-content: center;
 }
 
-.holidayLbl
-{
-    display:inline;
-    flex-direction:row;
-    align-items:flex-start;
-    justify-content: flex-start;
-    // background-color: aqua;
+.holidayLbl {
+  display: inline;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  // background-color: aqua;
 }
 
-.holidaySpanTill
-{
+.holidaySpanTill {
   background-color: darkgray;
   width: 55px;
-  height:30px;
+  height: 30px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin:-6px 1px 3px 1px;
+  margin: -6px 1px 3px 1px;
 }
 
-.holidayDateAlign
-{
-  display:flex;
-  margin:2px 5px;
+.holidayDateAlign {
+  display: flex;
+  margin: 2px 5px;
   /* background-color: aqua; */
-} 
-
-.holiday_span
-{
-    font-size: small;
 }
 
-.holidayOccassionName
-{
-    width: 330px;
-    height:25px;
+.holiday_span {
+  font-size: small;
 }
 
-.holidayDescriptionName
-{
-    width: 200px;
-    height: 20px;
+.holidayOccassionName {
+  width: 330px;
+  height: 25px;
 }
 
-body
-{
-background-color: white;  
+.holidayDescriptionName {
+  width: 200px;
+  height: 20px;
 }
 
-.holidayButtons
-{
-    display:flex;
-    height:40px;
-    flex-direction: row;
-    justify-content: center;
-    margin:15px 15px;
+body {
+  background-color: white;
 }
- 
 
-.holidaybtn1
-{
-    margin: 0px 5px;
+.holidayButtons {
+  display: flex;
+  height: 40px;
+  flex-direction: row;
+  justify-content: center;
+  margin: 15px 15px;
+}
+
+.holidaybtn1 {
+  margin: 0px 5px;
 }
 
 /////Tasks page css
@@ -550,94 +501,88 @@ background-color: white;
   border: 1px solid #60aee4;
   border-top: 0;
 }
-.portlet > .portlet-body.blue, .portlet.blue {
+.portlet > .portlet-body.blue,
+.portlet.blue {
   background-color: #3598dc;
 }
 .rowTasks {
   margin-right: auto;
   margin-left: auto;
-  width:90%;
- 
-  background-color: white;
+  width: 90%;
 
+  background-color: white;
 }
 .Tasks .portlet-title {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
   justify-content: space-between;
   padding: 10px 10px;
-
 }
-.lb1{
+.lb1 {
   width: 200px;
   margin-left: 30px;
-
 }
-.select1{
+.select1 {
   width: 200px;
   height: 40px;
   margin: 20px;
 }
-.bt1{
+.bt1 {
   width: 150px;
   height: 40px;
   margin: 20px;
   background-color: rgb(128, 128, 209);
   color: white;
 }
-.pdiv{
+.pdiv {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
-.pdiv1{
-border: 1px solid black;
-height: 200px;
-width: 250px;
-margin: 100px;
-padding: 30px;
+.pdiv1 {
+  border: 1px solid black;
+  height: 200px;
+  width: 250px;
+  margin: 100px;
+  padding: 30px;
 }
 
-
 $primary: rgb(50, 102, 50);
-$secondary:rgb(190, 189, 189);
+$secondary: rgb(190, 189, 189);
 
-.messageBody
-{
+.messageBody {
   background-color: #eceef1;
   height: 1000px;
 }
-.para
-{
-  
+.para {
   text-align: left;
 }
-.activities
-{
+.activities {
   background-color: #3598dc;
   text-align: left;
-  font-size:20px;
+  font-size: 20px;
 }
-.select
-{
-
+.select {
   display: flex;
   justify-content: space-between;
 }
-#burgers
-{
+#burgers {
   width: 250px;
 }
-.datatable
-{
+.datatable {
   width: 1500px;
   text-align: center;
 }
-.messageBorder
-{
-  border:2px solid rgb(71, 71, 143);
+.messageBorder {
+  border: 2px solid rgb(71, 71, 143);
   height: 400px;
 }
 
-@import '../node_modules/bootstrap/scss/bootstrap.scss'
+// studentRequest
+.rqvstContainer {
+  background-color: white;
+  padding-bottom: 2000px;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

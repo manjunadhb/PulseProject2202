@@ -2,6 +2,7 @@ import DSU from "./DSU";
 import Messages from "./Messages";
 import More from "./More";
 import Tasks from "./Tasks";
+import Requests from "./Requests"
 import { BrowserRouter, Link, Route, Routes, NavLink } from "react-router-dom";
 import React, { Suspense } from "react";
 import {Accordion,OverlayTrigger,Popover,Button} from 'react-bootstrap';
@@ -46,6 +47,11 @@ function Home() {
               </NavLink>
             </button>
             <button className="buttonClassOne">
+              <NavLink to="/requests" style={(obj) => highlightNavLink(obj)}>
+                Requests
+              </NavLink>
+            </button>
+            <button className="buttonClassOne">
               <NavLink to="/more" style={(obj) => highlightNavLink(obj)}>
                 More
               </NavLink>
@@ -68,6 +74,7 @@ function Home() {
             <Route path="/dsu" element={<DSU />}></Route>
             <Route path="/tasks" element={<Tasks />}></Route>
             <Route path="/messages" element={<Messages />}></Route>
+            <Route path="/requests" element={<Requests/>}></Route>
             <Route path="/more" element={<More />}></Route>
           </Routes>
         </Suspense>

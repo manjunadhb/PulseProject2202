@@ -3,7 +3,6 @@ import { Button, Form, Modal, Card, Table } from "react-bootstrap";
 
 function AdminMessages() {
   const [show, setShow] = useState(false);
-
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 

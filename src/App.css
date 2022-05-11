@@ -60,7 +60,10 @@
   width: 1250px;
 }
 
-#ran tr, #ran td, #ran table, #ran th {
+#ran tr,
+#ran td,
+#ran table,
+#ran th {
   border: 1px solid black;
 }
 
@@ -86,8 +89,11 @@
   border-radius: 15px;
 }
 
-input[type=text], input[type=date],
-input[type=password], input[type=number], textarea {
+input[type=text],
+input[type=date],
+input[type=password],
+input[type=number],
+textarea {
   width: 80%;
   padding: 15px;
   font-size: large;
@@ -324,7 +330,9 @@ th {
   width: 2%;
 }
 
-tr, td, th {
+tr,
+td,
+th {
   border: 2px solid white;
 }
 
@@ -399,7 +407,8 @@ tr:nth-child(odd) {
   /* background-color:red; */
 }
 
-.holidayAnnounceHeading1, .holidayAnnounceHeading4 {
+.holidayAnnounceHeading1,
+.holidayAnnounceHeading4 {
   font-family: "Open Sans", sans-serif;
 }
 
@@ -515,7 +524,8 @@ body {
   border-top: 0;
 }
 
-.portlet > .portlet-body.blue, .portlet.blue {
+.portlet > .portlet-body.blue,
+.portlet.blue {
   background-color: #3598dc;
 }
 
@@ -599,6 +609,11 @@ body {
 .messageBorder {
   border: 2px solid rgb(71, 71, 143);
   height: 400px;
+}
+
+.rqvstContainer {
+  background-color: white;
+  padding-bottom: 2000px;
 }
 
 /*!
