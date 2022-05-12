@@ -67,9 +67,13 @@
   border: 1px solid black;
 }
 
+.loginMainView {
+  background-color: black;
+}
+
 .App {
   text-align: center;
-  background-color: #333333;
+  background-color: rgba(20, 3, 3, 0);
   height: 950px;
 }
 
@@ -140,6 +144,7 @@ textarea {
 }
 
 .bannerContainer {
+  width: auto;
   height: 55px;
   background-color: #333333;
   text-align: left;
@@ -152,16 +157,12 @@ textarea {
 .navContainer {
   background-color: #333333;
   color: white;
+  height: 34px;
   text-align: left;
 }
 
 .buttonClass {
-  height: 55px;
-  width: 150px;
-  font-size: large;
-  padding: 5px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin: 20px;
 }
 
 .buttonClassOne {

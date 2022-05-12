@@ -10,7 +10,7 @@ function Login() {
   let navigate = useNavigate();
   // let dispatch = useDispatch();
   return (
-    <div>
+    <div className="loginMainView">
  <img
         src="https://pulse.brninfotech.com/pulse/assets/admin/layout/img/logo-big.png"
         alt = "Student Photo"
