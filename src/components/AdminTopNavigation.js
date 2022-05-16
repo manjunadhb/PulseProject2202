@@ -1,6 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
+
+
 function AdminTopNavigation() {
   let highlightNavLink = (obj) => {
     if (obj.isActive === true) {
@@ -12,42 +14,46 @@ function AdminTopNavigation() {
   };
 
   return (
+    
     <div className="bannerContainer">
       <div>
         <img src="https://pulse.brninfotech.com/pulse/assets/admin/layout/img/logo.png"></img>
       </div>
       <div className="navContainer">
+        
         <nav>
+  
+
           <button className="buttonClass">
             {" "}
             <NavLink
               to="/adminDashboard"
               style={(obj) => highlightNavLink(obj)}
-            >
+             className="link">
               Dashboard
             </NavLink>
           </button>
           <button className="buttonClass">
             {" "}
-            <NavLink to="/adminReports" style={(obj) => highlightNavLink(obj)}>
+            <NavLink to="/adminReports" style={(obj) => highlightNavLink(obj)}  className="link">
               Reports{" "}
             </NavLink>
           </button>
           <button className="buttonClass">
             {" "}
-            <NavLink to="/adminManage" style={(obj) => highlightNavLink(obj)}>
+            <NavLink to="/adminManage" style={(obj) => highlightNavLink(obj)}  className="link">
               Manages{" "}
             </NavLink>
           </button>
           <button className="buttonClass">
             {" "}
-            <NavLink to="/batchSummary" style={(obj) => highlightNavLink(obj)}>
+            <NavLink to="/batchSummary" style={(obj) => highlightNavLink(obj)}  className="link">
               Batch Summary
             </NavLink>
           </button>
           <button className="buttonClass">
             {" "}
-            <NavLink to="/adminSettings" style={(obj) => highlightNavLink(obj)}>
+            <NavLink to="/adminSettings" style={(obj) => highlightNavLink(obj)}  className="link">
               Settings
             </NavLink>
           </button>

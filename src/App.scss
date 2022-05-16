@@ -126,6 +126,36 @@ textarea {
   border-radius: 9px;
   margin: 3px;
 }
+
+// @media only screen and (min-width:0px) and (max-width:500px) {
+//   .buttonClass{
+//     display: flex;
+//     width: 100px;
+//     flex-direction: column;
+//     background-color: yellow;
+//     float: left;
+   
+//   }
+// }
+//   .bannerContainer{
+//     display: flex;
+//     flex-direction: column;
+//     background-color: yellow;
+
+//   }
+//   .navContainer{
+//     display: flex;
+//     flex-direction: column;
+//     background-color: yellow;
+
+//   }
+//   .imageContainer{
+//     display: flex;
+//     flex-direction: column;
+//     background-color: yellow;
+//   }
+  
+// }
 .bannerContainer {
   width: auto;
   height: 55px;
@@ -143,8 +173,15 @@ textarea {
   height: 34px;
   text-align: left;
 }
+// added class name  as in link in admin top navigation bar... starts hereeee
+.link{
+  text-decoration: none;
+  
+}
+// ends here 
  .buttonClass {
    margin: 20px;
+   
   // height: 55px;
   // width: 50px;
   // font-size: large;

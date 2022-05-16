@@ -161,6 +161,10 @@ textarea {
   text-align: left;
 }
 
+.link {
+  text-decoration: none;
+}
+
 .buttonClass {
   margin: 20px;
 }
