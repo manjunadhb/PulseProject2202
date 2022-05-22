@@ -1,5 +1,5 @@
 import React from "react";
-// import { FaGift } from "react-icons/fa";
+import { FaGift } from "react-icons/fa";
 import { Breadcrumb, Button } from "react-bootstrap";
 import { BrowserRouter, Link, Route, Routes, NavLink } from "react-router-dom";
 import DSU from "./DSU";
@@ -76,15 +76,18 @@ function Requests() {
         <Breadcrumb.Item active>Dashboard</Breadcrumb.Item>
         <Breadcrumb.Item active>Requests</Breadcrumb.Item>
       </Breadcrumb>
+     
+      <div className="contentConatainer">
       <div className="rqvstHeader">
         <div className="iconContainer">
-          <h4 className="h4">Create a Request</h4>
+          <FaGift style={{margin:"2px 5px 2px"}}/>
+          <h4 className="headerHeading">Create a Request</h4>
         </div>
       </div>
-      <div className="contentConatainer">
-        <div className="inputContainer">
-          <label className="label">Request Type</label>
-          <select>
+      <div className="inputContainer">
+        <div >
+          <label className="rqvstLabel">Request Type</label>
+          <select className="select">
             <option>Select</option>
             <option value="">New software installation</option>
             <option value="">Unable to login thru my user name</option>
@@ -117,24 +120,26 @@ function Requests() {
           </select>
         </div>
         <div>
-          <label>Lab ID</label>
-          <select>
+          <label className="rqvstLabel">Lab ID</label>
+          <select className="select">
             <option>Select</option>
           </select>
         </div>
         <div>
-          <label> Seat Number</label>
-          <select>
+          <label className="rqvstLabel"> Seat Number</label>
+          <select className="select">
             <option>Select</option>
           </select>
         </div>
-        <div>
-          <label>Description</label>
-          <textarea placeholder="Ticket Description" type="text"></textarea>
+        </div>
+        <div className="textAreaContainer">
+          <label className="rqvstLabel">Description</label>
+          <textarea className="textArea" placeholder="Ticket Description" type="text"></textarea>
           <p>Please describe in detail</p>
         </div>
+      
 
-        <div>
+        <div className="rqvstBtn">
           <Button
             variant="success"
             onClick={() => {
@@ -142,7 +147,7 @@ function Requests() {
             }}
           >
             Submit
-          </Button>{" "}
+          </Button>
         </div>
       </div>
     </div>

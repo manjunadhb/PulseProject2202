@@ -632,4 +632,48 @@ $secondary: rgb(190, 189, 189);
   padding-bottom: 2000px;
 }
 
+.contentConatainer{
+  border: 2px solid #8e5fa2;
+  margin: 0px 10px 10px;
+}
+.rqvstHeader{
+  background-color: #8e5fa2;
+  padding: 3px;
+}
+.iconContainer{
+  display: flex;
+  text-align: left;
+  color: white;
+  }
+  .inputContainer{
+    display: inline-block;
+    flex-direction: column;
+    text-align: right;
+    margin-top: 20px;
+  }
+.headerHeading{
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+}
+.rqvstLabel{
+  padding: 10px 12px;
+  }
+.select{
+ width:70%;
+ float: right;
+ padding: 6px 12px;
+}
+.textAreaContainer{
+  display: block;
+}
+.textArea{
+  width: 21%;
+  height: 100px;
+  margin-top: 10px;
+  }
+  .rqvstBtn{
+    padding-bottom: 20px;
+  }
+
+
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
