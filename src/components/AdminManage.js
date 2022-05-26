@@ -1,11 +1,10 @@
 import React from "react";
-import AdminTopNavigation from "./AdminTopNavigation";
 import Holiday from "./Holiday";
-
+import Navbar from "./Navbar";
 function AdminManage() {
   return (
     <div>
-      <AdminTopNavigation />
+        <Navbar/>
       <Holiday/>
 
       </div>

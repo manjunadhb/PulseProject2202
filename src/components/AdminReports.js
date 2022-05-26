@@ -1,10 +1,9 @@
 import React from "react";
-import AdminTopNavigation from "./AdminTopNavigation";
-
+import Navbar from "./Navbar";
 function AdminReports() {
   return (
     <div>
-      <AdminTopNavigation />
+         <Navbar/>
       <h1>Reports Page</h1>
     </div>
   );

@@ -7,67 +7,19 @@ import { BrowserRouter, Link, Route, Routes, NavLink } from "react-router-dom";
 import React, { Suspense } from "react";
 import {Accordion,OverlayTrigger,Popover,Button} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar1 from "./Navbar1";
 
 function Home() {
-  let highlightNavLink = (obj) => {
-    if (obj.isActive === true) {
-      return {
-        backgroundColor: "green",
-        color: "White",
-      };
-    }
-  };
+
   return (
     <div>
     <div className="App1">
-      <div className="bannerContainer">
-        <div>
-          <img src="https://pulse.brninfotech.com/pulse/assets/admin/layout/img/logo.png"></img>
-        </div>
-        <div className="navContainer">
-          <nav>
-            <button className="buttonClassOne">
-              <NavLink to="/home" style={(obj) => highlightNavLink(obj)}>
-                Home
-              </NavLink>
-            </button>
-            <button className="buttonClassOne">
-              <NavLink to="/dsu" style={(obj) => highlightNavLink(obj)}>
-                Daily Status Update
-              </NavLink>
-            </button>
-            <button className="buttonClassOne">
-              <NavLink to="/tasks" style={(obj) => highlightNavLink(obj)}>
-                Tasks
-              </NavLink>
-            </button>
-            <button className="buttonClassOne">
-              <NavLink to="/messages" style={(obj) => highlightNavLink(obj)}>
-                Messages
-              </NavLink>
-            </button>
-            <button className="buttonClassOne">
-              <NavLink to="/requests" style={(obj) => highlightNavLink(obj)}>
-                Requests
-              </NavLink>
-            </button>
-            <button className="buttonClassOne">
-              <NavLink to="/more" style={(obj) => highlightNavLink(obj)}>
-                More
-              </NavLink>
-            </button>
-          </nav>
-        </div>
-        <div className="imageContainer">
-          <img
-            src="https://img.indiaforums.com/person/640x480/0/1033-ranbir-kapoor.jpg?c=1vF2D7"
-            className="image"
-            width="40px"
-            height="55px"
-            alt="image Here"
-          ></img>
-          <h6>Ranbir Kapoor</h6>
-        </div>
+    <div>
+        <Navbar1 />
+        <h1>Home</h1>
+      </div>
+      
+       
         <Suspense fallback={<div>Loading.........</div>}>
           <Routes>
             <Route path="/home" element={<Home />}></Route>
@@ -78,7 +30,7 @@ function Home() {
             <Route path="/more" element={<More />}></Route>
           </Routes>
         </Suspense>
-      </div>
+      
       </div>
 
 

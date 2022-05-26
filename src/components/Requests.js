@@ -17,50 +17,8 @@ function Requests() {
 <div>
           <img src="https://pulse.brninfotech.com/pulse/assets/admin/layout/img/logo.png"></img>
         </div>
-        <div className="navContainer">
-          <nav>
-            <button className="buttonClassOne">
-              <NavLink to="/home" >
-                Home
-              </NavLink>
-            </button>
-            <button className="buttonClassOne">
-              <NavLink to="/dsu" >
-                Daily Status Update
-              </NavLink>
-            </button>
-            <button className="buttonClassOne">
-              <NavLink to="/tasks">
-                Tasks
-              </NavLink>
-            </button>
-            <button className="buttonClassOne">
-              <NavLink to="/messages" >
-                Messages
-              </NavLink>
-            </button>
-            <button className="buttonClassOne">
-              <NavLink to="/requests" >
-                Requests
-              </NavLink>
-            </button>
-            <button className="buttonClassOne">
-              <NavLink to="/more">
-                More
-              </NavLink>
-            </button>
-          </nav>
-        </div>
-        <div className="imageContainer">
-          <img
-            src="https://img.indiaforums.com/person/640x480/0/1033-ranbir-kapoor.jpg?c=1vF2D7"
-            className="image"
-            width="40px"
-            height="55px"
-            alt="image Here"
-          ></img>
-          <h6>Ranbir Kapoor</h6>
-        </div>
+      
+       
         
           <Routes>
             <Route path="/home" element={<Home />}></Route>

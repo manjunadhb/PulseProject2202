@@ -16,37 +16,102 @@ import Home from "./components/Home";
 import SignUp from "./components/SignUp";
 import Forgotpassword from "./components/Forgotpassword";
 import BatchSummary from "./components/BatchSummary";
+import Navbar from "./components/Navbar";
+import Navbar1 from "./components/Navbar1";
 
 function App() {
+  // const AdminDashboard = () => {
+  //   return (
+  //     <>
+  //       <Navbar />
+
+  //     </>
+  //   );
+  // };
+
+  // const AdminManage = () => {
+  //   return (
+  //     <>
+  //       <Navbar />
+     
+  //     </>
+  //   );
+  // };
+
+  // const AdminReports = () => {
+  //   return (
+  //     <>
+  //       <Navbar />
+ 
+  //     </>
+  //   );
+  // };
+
+  // const AdminSettings = () => {
+  //   return (
+  //     <>
+  //       <Navbar />
+   
+  //     </>
+  //   );
+  // };
+
+  // const Home = () => {
+  //   return (
+  //     <>
+  //       <Navbar1/>
+  //     </>
+  //   );
+  // };
+  // const DailyStatusUpdate = () => {
+  //   return (
+  //     <>
+  //       <Navbar1 />
+     
+  //     </>
+  //   );
+  // };
+
+  // const Tasks = () => {
+  //   return (
+  //     <>
+  //       <Navbar1 />
+     
+  //     </>
+  //   );
+  // };
+
+  // const Messages = () => {
+  //   return (
+  //     <>
+  //       <Navbar1 />
+     
+  //     </>
+  //   );
+  // };
+  // const More = () => {
+  //   return (
+  //     <>
+  //       <Navbar1 />
+       
+  //     </>
+  //   );
+  // };
   return (
     <div className="App">
       <BrowserRouter>
-      
         <Routes>
           <Route path="/" element={<Login />}></Route>
           <Route path="Forgotpassword" element={<Forgotpassword />}></Route>
-          <Route path="batchsummary" element={<BatchSummary/>}/>
-          
+          <Route path="batchsummary" element={<BatchSummary />} />
           //..............................For
           Admin......................................................//
-
-
-
-
           <Route path="adminDashboard/*" element={<AdminDashboard />}></Route>
           <Route path="adminReports" element={<AdminReports />}></Route>
           <Route path="adminManage" element={<AdminManage />}></Route>
           <Route path="adminSettings" element={<AdminSettings />}></Route>
-
-
-
-
           //.........................For Student
           ..............................................//
-
-
-
-
           <Route path="home/*" element={<Home />}></Route>
           <Route path="dsu" element={<DSU />}></Route>
           <Route path="tasks" element={<Tasks />}></Route>
@@ -58,14 +123,8 @@ function App() {
           {/* </Routes>
 
           <Route path="signup" element={<SignUp />}></Route> */}
-          
-
         </Routes>
-
       </BrowserRouter>
-
-      
-      
     </div>
   );
 }

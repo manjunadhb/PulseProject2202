@@ -1,7 +1,13 @@
 import React from 'react'
+import Navbar1 from "./Navbar1";
 
 function Messages() {
   return (
+    <div>
+ <div>
+        <Navbar1 />
+        <h1>Messages</h1>
+      </div>
     <div className='messageBody'>
       <p className='para'>Messages</p>
    <a className=''href='/home'>Home</a>
@@ -46,6 +52,7 @@ function Messages() {
         </div>
         </div>
 
+        </div>
         </div>
   )
 }

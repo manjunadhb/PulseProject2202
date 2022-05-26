@@ -3,7 +3,7 @@ import AdminReports from "./AdminReports";
 import AdminSettings from "./AdminSettings";
 import { BrowserRouter, Link, Route, Routes, NavLink } from "react-router-dom";
 import React, { Suspense } from "react";
-import AdminTopNavigation from "./AdminTopNavigation";
+import Navbar from "./Navbar";
 import { Tabs, Tab, TabContainer, TabPane } from "react-bootstrap";
 import Ranking from "./Ranking";
 import ManageUsers from "./ManageUsers";
@@ -18,8 +18,10 @@ function AdminDashboard() {
   return (
     <div>
       <div>
-        <AdminTopNavigation />
+        <Navbar />
+        <h1>Admin DashBoard</h1>
       </div>
+     
       <div className="tabContainer">
         <Tabs
           defaultActiveKey="ranking"
@@ -36,7 +38,7 @@ function AdminDashboard() {
             <BatchSummary></BatchSummary>
           </Tab>
           <Tab eventKey="request" title="Requests">
-            <AdminRequest/>
+            <AdminRequest />
           </Tab>
           <Tab eventKey="message" title="Messages">
             <AdminMessages />

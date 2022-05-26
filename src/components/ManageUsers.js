@@ -1,8 +1,14 @@
 import React from "react";
 import { Table } from "react-bootstrap";
+import Navbar1 from "./Navbar1";
+
 function ManageUsers() {
   return (
     <div>
+       <div>
+        <Navbar1 />
+        <h1>ManageUsers</h1>
+      </div>
       <div className="mg">
         <div className="manage">
           <h1>&#128172;Manage Users</h1>

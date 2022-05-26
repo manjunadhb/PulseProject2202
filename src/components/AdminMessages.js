@@ -20,7 +20,6 @@ function AdminMessages() {
             <th>Msg-Uid</th>
             <th>Category</th>
             <th>subject</th>
-
             <th>Sent to</th>
             <th>read/unread</th>
             <th>Sent By</th>

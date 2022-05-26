@@ -1,10 +1,9 @@
 import React from "react";
-import AdminTopNavigation from "./AdminTopNavigation";
-
+import Navbar from "./Navbar";
 function AdminSettings() {
   return (
     <div>
-      <AdminTopNavigation />
+          <Navbar/>
       <h1>AdminSettings</h1>
     </div>
   );

@@ -1,10 +1,11 @@
 import React from "react";
-import AdminTopNavigation from "./AdminTopNavigation";
+import Navbar from "./Navbar";
+
 
 function BatchSummary() {
   return (
     <div>
-      {/* <AdminTopNavigation /> */}
+      <Navbar />
 
       <div className="styleBatchSummary">
         <h1>Batch Summary</h1>
