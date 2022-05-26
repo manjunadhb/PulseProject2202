@@ -19,7 +19,7 @@ function AdminDashboard() {
     <div>
       <div>
         <Navbar />
-        <h1>Admin DashBoard</h1>
+       
       </div>
      
       <div className="tabContainer">

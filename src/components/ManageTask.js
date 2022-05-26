@@ -6,10 +6,7 @@ import Navbar1 from "./Navbar1";
 function ManageTask() {
   return (
     <>
-       <div>
-        <Navbar1 />
-        <h1>Admin DashBoard</h1>
-      </div>
+     
       <Tabs
         defaultActiveKey="profile"
         id="uncontrolled-tab-example"

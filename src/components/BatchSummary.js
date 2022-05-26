@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 function BatchSummary() {
   return (
     <div>
-      <Navbar />
+    
 
       <div className="styleBatchSummary">
         <h1>Batch Summary</h1>
