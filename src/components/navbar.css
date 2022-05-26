@@ -25,12 +25,13 @@ li {
 /* navbar style start  */
 
 .main-nav {
+  background-image: linear-gradient(45deg, rgb(32, 25, 29), #f5d7ec);
   width: 100%;
   height: 10rem;
   display: grid;
   grid-template-columns: 10rem 1fr 2fr 1fr 10rem;
-  box-shadow: rgba(10, 10, 230, 0.25) 0px 50px 100px -20px,
-    rgba(227, 11, 11, 0.3) 0px 30px 60px -30px;
+  box-shadow: rgba(130, 55, 229, 0.25) 0px 50px 100px -20px,
+    rgba(234, 11, 127, 0.3) 0px 30px 60px -30px;
 }
 
 .logo {
@@ -88,15 +89,16 @@ li {
 }
 
 .menu-link ul li {
-  font-size: 1.8rem;
+  font-size: 2.2rem;
 }
 
 .menu-link ul li a {
   text-transform: capitalize;
-  color: rgba(0, 0, 3, 0.8);
+  color: rgba(242, 242, 247, 0.8);
   transition: 0.5s;
 }
 .menu-link ul li:hover > a {
+ background-color: aliceblue;
   transform-origin: left;
   color: rgba(0, 0, 3, 1);
   text-decoration: underline;
