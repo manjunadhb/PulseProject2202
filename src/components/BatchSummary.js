@@ -1,11 +1,16 @@
 import React from "react";
 import Navbar from "./Navbar";
+import {Breadcrumb} from "react-bootstrap"
+
 
 
 function BatchSummary() {
   return (
     <div>
-    
+    <Breadcrumb>
+  <Breadcrumb.Item active>Dashboard</Breadcrumb.Item>
+  <Breadcrumb.Item href="#">Batch Summary</Breadcrumb.Item>
+</Breadcrumb>
 
       <div className="styleBatchSummary">
         <h1>Batch Summary</h1>

@@ -1,10 +1,17 @@
 import React from 'react'
 import Navbar1 from "./Navbar1";
+import {Breadcrumb} from "react-bootstrap"
+
 
 function Messages() {
   return (
     <div>
+       <Breadcrumb>
+  <Breadcrumb.Item active>Dashboard</Breadcrumb.Item>
+  <Breadcrumb.Item href="#">Messages</Breadcrumb.Item>
+</Breadcrumb>
  <div>
+ 
         <Navbar1 />
         <h1>Messages</h1>
       </div>

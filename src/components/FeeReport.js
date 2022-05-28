@@ -10,7 +10,7 @@ function FeeReport() {
     
     <Breadcrumb>
   <Breadcrumb.Item active>Dashboard</Breadcrumb.Item>
-  <Breadcrumb.Item active>Fee report</Breadcrumb.Item>
+  <Breadcrumb.Item href="#">Fee report</Breadcrumb.Item>
 </Breadcrumb>
 
 <div className="fee">

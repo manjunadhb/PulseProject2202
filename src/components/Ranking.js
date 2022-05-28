@@ -6,7 +6,7 @@ function Ranking() {
     <div>
 
 <Breadcrumb>
-  <Breadcrumb.Item active>Admin Dashboard</Breadcrumb.Item>
+  <Breadcrumb.Item active>Dashboard</Breadcrumb.Item>
   <Breadcrumb.Item href="#">Ranking</Breadcrumb.Item>
 </Breadcrumb>
 
