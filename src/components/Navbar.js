@@ -32,16 +32,16 @@ const Navbar = () => {
         >
           <ul>
             <li>
-              <NavLink to="/admindashboard">DashBoard</NavLink>
+              <NavLink to="/admindashboard" className="link">DashBoard</NavLink>
             </li>
             <li>
-              <NavLink to="/adminreports">Reports</NavLink>
+              <NavLink to="/adminreports" className="link">Reports</NavLink>
             </li>
             <li>
-              <NavLink to="/adminmanage">Manages</NavLink>
+              <NavLink to="/adminmanage" className="link">Manages</NavLink>
             </li>
             <li>
-              <NavLink to="/adminsettings">Settings</NavLink>
+              <NavLink to="/adminsettings" className="link">Settings</NavLink>
             </li>
           </ul>
         </div>
