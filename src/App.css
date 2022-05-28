@@ -3094,7 +3094,7 @@ textarea.form-control-lg {
   background-size: contain;
   border: 1px solid rgba(0, 0, 0, 0.25);
   appearance: none;
-  color-adjust: exact;
+  /* color-adjust: exact; */
 }
 .form-check-input[type=checkbox] {
   border-radius: 0.25em;
@@ -7884,6 +7884,7 @@ textarea.form-control-lg {
 
 .mb-3 {
   margin-bottom: 1rem !important;
+  font-size: 20px;
 }
 
 .mb-4 {

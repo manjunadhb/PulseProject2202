@@ -93,6 +93,7 @@ li {
 }
 
 .menu-link ul li a {
+  font-size: 25px;
   text-transform: capitalize;
   color: rgba(242, 242, 247, 0.8);
   transition: 0.5s;
