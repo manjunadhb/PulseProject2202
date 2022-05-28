@@ -9,7 +9,7 @@ function AdminRequest() {
       </Breadcrumb>
   <Accordion >
   <Accordion.Item eventKey="0">
-  <Accordion.Header ><FaGift style={{margin: "2px 5px 2px"}}/>Requests</Accordion.Header>
+  <Accordion.Header ><FaGift style={{margin: "2px 5px 2px"}}/><h3>Requests</h3></Accordion.Header>
   <Accordion.Body>
   <Table striped bordered hover variant="dark">
   <thead>
