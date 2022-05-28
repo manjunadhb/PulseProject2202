@@ -46,7 +46,7 @@ function FeeReport() {
     <br></br><br></br>
     <Accordion>
   <Accordion.Item eventKey="0">
-    <Accordion.Header> <h5>2202 - Started from: 14-Feb-22</h5></Accordion.Header>
+    <Accordion.Header> <h3>2202 - Started from: 14-Feb-22</h3></Accordion.Header>
     <Accordion.Body>
     <Table responsive>
   <thead>
@@ -204,7 +204,7 @@ function FeeReport() {
   </Accordion.Item>
 
   <Accordion.Item eventKey="1">
-    <Accordion.Header> <h5>2112 - Started from: 12-Nov-21</h5></Accordion.Header>
+    <Accordion.Header> <h3>2112 - Started from: 12-Nov-21</h3></Accordion.Header>
     <Accordion.Body>
     <Table responsive>
   <thead>

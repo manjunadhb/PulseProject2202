@@ -120,6 +120,7 @@ textarea {
 
 .tabContainer {
   background-color: white;
+  font-size: 20px;
 }
 
 .registerbtn:hover {
@@ -376,6 +377,10 @@ tr:nth-child(odd) {
 .feelabel {
   color: black;
   font-size: 20px;
+}
+
+h3, .h3 {
+  color: blue;
 }
 
 .announceHolidayDiv {
@@ -3094,7 +3099,7 @@ textarea.form-control-lg {
   background-size: contain;
   border: 1px solid rgba(0, 0, 0, 0.25);
   appearance: none;
-  /* color-adjust: exact; */
+  color-adjust: exact;
 }
 .form-check-input[type=checkbox] {
   border-radius: 0.25em;
@@ -7884,7 +7889,6 @@ textarea.form-control-lg {
 
 .mb-3 {
   margin-bottom: 1rem !important;
-  font-size: 20px;
 }
 
 .mb-4 {
